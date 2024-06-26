@@ -1,6 +1,8 @@
 # speechbrain 
 
-def vad_inference_speechbrain(audio_path):
+from .vad import add_noise, save_audio, evaluate_vad
+
+def vad_inference_speechbrain(audio_path, vad):
     # Load the pre-trained VAD mode
     prob_chunks = vad.get_speech_prob_file(audio_path) # 1- Let's compute frame-level posteriors first
     prob_th = vad.apply_threshold(prob_chunks).float() # 2- Let's apply a threshold on top of the posteriors
@@ -22,19 +24,19 @@ def print_timestamps_speechbrain(boundaries):
 
     return output_segments
 
-def run_vad_on_noisy_audio_speechbrain(audio_path, noise_path, snr):
+def run_vad_on_noisy_audio_speechbrain(audio_path, noise_path, vad, snr):
     noisy_audio, sr = add_noise(audio_path, noise_path, snr)
     noisy_audio_path = "noisy_audio.wav"
     save_audio(noisy_audio, sr, noisy_audio_path)
-    output = vad_inference_speechbrain(noisy_audio_path)
+    output = vad_inference_speechbrain(noisy_audio_path, vad)
     return output
 
-def visualize_metrics_vs_SNR_speechbrain(low, high):
+def visualize_metrics_vs_SNR_speechbrain(audio_path, noise_path, annotated_segments, vad, low, high):
     snr_levels = [dp for dp in range(low, high)]
     metrics_results = []
 
     for snr in snr_levels:
-        output = run_vad_on_noisy_audio_speechbrain(audio_path, noise_path, snr)
+        output = run_vad_on_noisy_audio_speechbrain(audio_path, noise_path, vad, snr)
         output_segments = print_timestamps_speechbrain(output)
         metrics = evaluate_vad(output_segments, annotated_segments)
         metrics_results.append((snr, metrics))

@@ -1,5 +1,14 @@
 # common function
 
+import soundfile as sf
+import numpy as np
+import os
+import torch
+import torchaudio
+from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score, accuracy_score
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+
 def parse_annotations_file(file_path):
     annotated_segments = []
 

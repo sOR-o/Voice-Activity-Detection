@@ -1,9 +1,13 @@
 # silero
 
+from .vad import add_noise, save_audio, evaluate_vad
+
 SAMPLING_RATE=16000
 
 # Function to run inference on your own data
-def vad_inference_silero(audio_path, sampling_rate=SAMPLING_RATE):
+def vad_inference_silero(audio_path, model_silero, utils_silero, sampling_rate=SAMPLING_RATE):
+    read_audio = utils_silero[2]
+    get_speech_timestamps = utils_silero[0]
 
     wav = read_audio(audio_path, sampling_rate=sampling_rate) # Read audio file
     speech_timestamps = get_speech_timestamps(wav, model_silero, sampling_rate=sampling_rate) # Get speech timestamps from the audio file
@@ -21,19 +25,19 @@ def print_timestamps_silero(speech_timestamps):
 
     return output_segments
 
-def run_vad_on_noisy_audio_silero(audio_path, noise_path, snr):
+def run_vad_on_noisy_audio_silero(audio_path, noise_path, model_silero, utils_silero, snr):
     noisy_audio, sr = add_noise(audio_path, noise_path, snr)
     noisy_audio_path = "noisy_audio.wav"
     save_audio(noisy_audio, sr, noisy_audio_path)
-    output = vad_inference_silero(noisy_audio_path)
+    output = vad_inference_silero(noisy_audio_path, model_silero, utils_silero)
     return output
 
-def visualize_metrics_vs_SNR_silero(low, high):
+def visualize_metrics_vs_SNR_silero(audio_path, noise_path, annotated_segments, model_silero, utils_silero,  low, high):
     snr_levels = [dp for dp in range(low, high)]
     metrics_results = []
 
     for snr in snr_levels:
-        output = run_vad_on_noisy_audio_silero(audio_path, noise_path, snr)
+        output = run_vad_on_noisy_audio_silero(audio_path, noise_path, model_silero, utils_silero, snr)
         output_segments = print_timestamps_silero(output)
         metrics = evaluate_vad(output_segments, annotated_segments)
         metrics_results.append((snr, metrics))

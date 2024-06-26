@@ -1,6 +1,8 @@
 # funasr
 
-def vad_inference_funasr(audio_path):
+from .vad import add_noise, save_audio, evaluate_vad
+
+def vad_inference_funasr(audio_path, model_funasr):
     res = model_funasr.generate(input=audio_path) # Generate speech activity detection
     return res[0]['value']  # Assuming timestamps are stored in the first element
 
@@ -15,19 +17,19 @@ def convert_to_timestamps_funasr(timestamps):
 
     return output_segments
 
-def run_vad_on_noisy_audio_funasr(audio_path, noise_path, snr):
+def run_vad_on_noisy_audio_funasr(audio_path, noise_path, model_funasr, snr):
     noisy_audio, sr = add_noise(audio_path, noise_path, snr)
     noisy_audio_path = "noisy_audio.wav"
     save_audio(noisy_audio, sr, noisy_audio_path)
-    output = vad_inference_funasr(noisy_audio_path)
+    output = vad_inference_funasr(noisy_audio_path, model_funasr)
     return output
 
-def visualize_metrics_vs_SNR_funasr(low, high):
+def visualize_metrics_vs_SNR_funasr(audio_path, noise_path, annotated_segments, model_funasr, low, high):
     snr_levels = [dp for dp in range(low, high)]
     metrics_results = []
 
     for snr in snr_levels:
-        output = run_vad_on_noisy_audio_funasr(audio_path, noise_path, snr)
+        output = run_vad_on_noisy_audio_funasr(audio_path, noise_path, model_funasr, snr)
         output_segments = convert_to_timestamps_funasr(output)
         metrics = evaluate_vad(output_segments, annotated_segments)
         metrics_results.append((snr, metrics))

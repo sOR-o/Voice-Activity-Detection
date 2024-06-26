@@ -1,5 +1,7 @@
 # pyannote
 
+from .vad import add_noise, save_audio, evaluate_vad
+
 # Define function to run inference
 def vad_inference_pyannote(pipeline, audio_path):
     output = pipeline(audio_path)
