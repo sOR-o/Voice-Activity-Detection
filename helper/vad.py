@@ -117,7 +117,7 @@ def add_noise(audio_path, noise_path, snr):
 def save_audio(audio, sr, path):
     sf.write(path, audio, sr)
 
-def plot(metrics_results):
+def plot_SNR(metrics_results):
     snrs = [result[0] for result in metrics_results]
     precision = [result[1]['precision'] for result in metrics_results]
     recall = [result[1]['recall'] for result in metrics_results]
