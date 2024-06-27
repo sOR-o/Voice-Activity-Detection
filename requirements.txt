@@ -1,0 +1,11 @@
+soundfile
+transformers
+modelscope
+funasr
+speechbrain
+torchaudio
+torchvision
+pyannote.audio
+torch
+scikit-learn
+matplotlib
