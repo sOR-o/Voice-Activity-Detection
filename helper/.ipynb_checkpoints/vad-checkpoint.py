@@ -175,35 +175,6 @@ def add_noise(audio_path, noise_path, snr):
 def save_audio(audio, sr, path):
     sf.write(path, audio, sr)
 
-# Function to plot confusion matrices in a 4x7 grid
-def plot_confusion_matrices(cmatrix_pyannote, cmatrix_funasr, cmatrix_silero, cmatrix_speechbrain):
-    fig, axs = plt.subplots(4, 4, figsize=(35, 20))
-
-    models = ['Pyannote', 'FunASR', 'Silero', 'SpeechBrain']
-    cmatrix_list = [cmatrix_pyannote, cmatrix_funasr, cmatrix_silero, cmatrix_speechbrain]
-
-    for i, model in enumerate(models):
-        for j, (y_true, y_pred) in enumerate(cmatrix_list[i]):
-            if j >= 4:
-                break
-            cm = confusion_matrix(y_true, y_pred)
-            im = axs[i, j].imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
-            axs[i, j].set_title(f'{model} - Audio {j+1}')
-            axs[i, j].set_xlabel('Predicted label')
-            axs[i, j].set_ylabel('True label')
-            axs[i, j].figure.colorbar(im, ax=axs[i, j])
-
-            # Label the confusion matrix
-            fmt = 'd'
-            thresh = cm.max() / 2.
-            for k in range(cm.shape[0]):
-                for l in range(cm.shape[1]):
-                    axs[i, j].text(l, k, format(cm[k, l], fmt),
-                                   ha="center", va="center",
-                                   color="white" if cm[k, l] > thresh else "black")
-    plt.tight_layout()
-    plt.show()
-
 def plot_SNR(metrics_results):
     snrs = [result[0] for result in metrics_results]
     precision = [result[1]['precision'] for result in metrics_results]
