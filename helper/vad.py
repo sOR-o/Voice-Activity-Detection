@@ -278,3 +278,75 @@ def plot_SNR(metrics_results):
 
     plt.tight_layout()
     plt.show()
+
+def normalize(value, min_value, max_value):
+    return (value - min_value) / (max_value - min_value)
+
+def compute_composite_score(average_metrics, weights):
+    composite_score = sum(average_metrics[key] * weights[key] for key in average_metrics.keys())
+    return composite_score
+
+def aggregate_metrics(cmatrix_list):
+    metrics = cmatrix_list[0].keys()
+    aggregated_metrics = {metric: [] for metric in metrics}
+
+    for cmatrix in cmatrix_list:
+        for metric in metrics:
+            aggregated_metrics[metric].append(cmatrix[metric])
+
+    average_metrics = {metric: np.mean(aggregated_metrics[metric]) for metric in metrics}
+    return average_metrics
+
+def evaluate_all_models(cmatrix_pyannote, cmatrix_funasr, cmatrix_silero, cmatrix_speechbrain):
+    weights = {
+        'precision': 0.2,
+        'recall': 0.2,
+        'f1_score': 0.2,
+        'accuracy': 0.1,
+        'specificity': 0.1,
+        'fdr': -0.1,  # Inverted weight for a metric where lower is better
+        'miss_rate': -0.1  # Inverted weight for a metric where lower is better
+    }
+
+    avg_metrics_pyannote = aggregate_metrics(cmatrix_pyannote)
+    avg_metrics_funasr = aggregate_metrics(cmatrix_funasr)
+    avg_metrics_silero = aggregate_metrics(cmatrix_silero)
+    avg_metrics_speechbrain = aggregate_metrics(cmatrix_speechbrain)
+
+    composite_score_pyannote = compute_composite_score(avg_metrics_pyannote, weights)
+    composite_score_funasr = compute_composite_score(avg_metrics_funasr, weights)
+    composite_score_silero = compute_composite_score(avg_metrics_silero, weights)
+    composite_score_speechbrain = compute_composite_score(avg_metrics_speechbrain, weights)
+
+    return {
+        'pyannote': composite_score_pyannote,
+        'funasr': composite_score_funasr,
+        'silero': composite_score_silero,
+        'speechbrain': composite_score_speechbrain
+    }
+
+def calculate_best_worst_scores(weights):
+    best_metrics = {
+        'precision': 1.0,
+        'recall': 1.0,
+        'f1_score': 1.0,
+        'accuracy': 1.0,
+        'specificity': 1.0,
+        'fdr': 0.0,  # Lower is better
+        'miss_rate': 0.0  # Lower is better
+    }
+    
+    worst_metrics = {
+        'precision': 0.0,
+        'recall': 0.0,
+        'f1_score': 0.0,
+        'accuracy': 0.0,
+        'specificity': 0.0,
+        'fdr': 1.0,  # Lower is better
+        'miss_rate': 1.0  # Lower is better
+    }
+    
+    best_score = compute_composite_score(best_metrics, weights)
+    worst_score = compute_composite_score(worst_metrics, weights)
+    
+    return best_score, worst_score
