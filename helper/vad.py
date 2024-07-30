@@ -2,17 +2,14 @@
 
 import soundfile as sf
 import numpy as np
+import pandas as pd
+import seaborn as sns
 import os
 import torch
 import torchaudio
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score, accuracy_score
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
-
-# from .pyannote import vad_inference_pyannote, print_timestamps_pyannote
-# from .funasr import vad_inference_funasr, convert_to_timestamps_funasr
-# from .silero import vad_inference_silero, print_timestamps_silero
-# from .speechbrain import vad_inference_speechbrain, print_timestamps_speechbrain
 
 def extract_metrics(results):
     SNRs = [entry[0] for entry in results]
@@ -283,3 +280,104 @@ def plot_SNR(metrics_results):
 
     plt.tight_layout()
     plt.show()
+
+def get_file_paths(directory, file_extension):
+    file_paths = []
+    for root, _, files in os.walk(directory):
+        for file in files:
+            if file.endswith(file_extension):
+                file_paths.append(os.path.join(root, file))
+    return file_paths
+
+def read_path(wav_directory, label_directory):
+    wav_files = get_file_paths(wav_directory, '.wav')
+    label_files = get_file_paths(label_directory, '.txt')
+    return wav_files, label_files
+
+def parse_annotations_file(file_path):
+    annotated_segments = []
+
+    with open(file_path, 'r') as f:
+        lines = f.readlines()
+
+    previous_end_time = None
+    current_label = None
+
+    for line in lines:
+        line = line.strip()  
+        parts = line.split()
+        if len(parts) == 3:
+            start_time = float(parts[0])
+            end_time = float(parts[1])
+            label = parts[2]
+
+            if label == 'S':
+                label = 'speech'
+            else:
+                continue
+
+            # Check if there is a previous segment and if a gap exists
+            if previous_end_time is not None and previous_end_time < start_time:
+                if current_label == 'speech':
+                    annotated_segments.append({'notspeech': [previous_end_time, start_time]})
+                elif current_label == 'notspeech':
+                    annotated_segments.append({'speech': [previous_end_time, start_time]})
+
+            annotated_segments.append({label: [start_time, end_time]})
+            previous_end_time = end_time
+            current_label = label
+
+    return annotated_segments
+
+def average_metrics(cmatrix):
+    temp = {}
+    num_files = len(cmatrix)
+    
+    for metric in cmatrix[0].keys():
+        temp[metric] = sum(d[metric] for d in cmatrix) / num_files
+
+    avg_metrics = []
+    avg_metrics.append(temp)
+    
+    return avg_metrics
+
+def show_vad_matrix_bh(avg_pyannote, avg_funasr,  avg_silero, avg_speechbrain, flag):
+    models = ['Pyannote', 'FunASR', 'Silero', 'SpeechBrain']
+    metrics = ['precision', 'recall', 'f1_score', 'accuracy', 'specificity', 'fdr', 'miss_rate']
+    
+    combined_data = {metric: {model: [] for model in models} for metric in metrics}
+    
+    for model_name, cmatrix in zip(models, [avg_pyannote, avg_funasr,  avg_silero, avg_speechbrain]):
+        for result in cmatrix:
+            for metric in metrics:
+                combined_data[metric][model_name].append(result[metric])
+    
+    average_data = {metric: {model: np.mean(combined_data[metric][model]) for model in models} for metric in metrics}
+    df_combined = pd.DataFrame(average_data).T
+    
+    if flag:
+        print(df_combined)
+
+    plt.figure(figsize=(12, 8))
+    plt.title("Model Metrics Comparison")
+    sns.heatmap(df_combined, annot=True, cmap="YlGnBu", fmt=".3f")
+    plt.xticks(rotation=45, ha='right')
+    plt.yticks(rotation=0)
+    plt.show()
+
+def save_results_to_csv(results, model_names, output_file, label_paths):
+    all_results = []
+    num_files = len(results[0]) 
+    print(num_files)
+
+    for file_idx in range(num_files):
+        
+        file = label_paths[file_idx].split('.')[0].split('/')[-1]
+        for model_idx, model_name in enumerate(model_names):
+            result = results[model_idx][file_idx]
+            temp = {'model': model_name, 'file index': file_idx, 'audio file': file}
+            temp.update(result)
+            all_results.append(temp)
+
+    df = pd.DataFrame(all_results)
+    df.to_csv(output_file, index=False)
