@@ -316,7 +316,7 @@ def parse_annotations_file(file_path):
             else:
                 continue
 
-            # Check if there is a previous segment and if a gap exists
+            # Checks 
             if previous_end_time is not None and previous_end_time < start_time:
                 if current_label == 'speech':
                     annotated_segments.append({'notspeech': [previous_end_time, start_time]})
