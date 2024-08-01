@@ -294,7 +294,7 @@ def read_path(wav_directory, label_directory):
     label_files = get_file_paths(label_directory, '.txt')
     return wav_files, label_files
 
-def parse_annotations_file(file_path):
+def parse_annotations_file_bh(file_path):
     annotated_segments = []
 
     with open(file_path, 'r') as f:
