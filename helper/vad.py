@@ -74,7 +74,7 @@ def evaluate_vad_cmatrix(output_segments, annotated_segments):
         elif 'notspeech' in seg:
             annotated_intervals.append((seg['notspeech'][0], seg['notspeech'][1], 'notspeech'))
 
-    resolution = 0.01
+    resolution = 0.001
     max_time = max(max(end for _, end, _ in annotated_intervals), max(end for _, end, _ in output_intervals))
     time_points = [i * resolution for i in range(int(max_time / resolution) + 1)]
 
@@ -381,3 +381,136 @@ def save_results_to_csv(results, model_names, output_file, label_paths):
 
     df = pd.DataFrame(all_results)
     df.to_csv(output_file, index=False)
+
+# Function to extract continuous speech segments from the annotations (ground truth)
+def extract_speech_segments(actual):
+    segments = []
+    in_speech = False
+    start_index = None
+
+    for i, value in enumerate(actual):
+        if value == 1:
+            if not in_speech:
+                start_index = i
+                in_speech = True
+        else:
+            if in_speech:
+                segments.append((start_index, i - 1))
+                in_speech = False
+
+    if in_speech:
+        segments.append((start_index, len(actual) - 1))
+    
+    return segments
+
+# Function to count continuous zeros after the start of a speech segment
+def count_continuous_zeros_after_start_segments(predicted, speech):
+    start = speech[0]
+    end = speech[1]
+    count = 0
+    while start <= end:
+        if predicted[start] == 1:
+            return count
+        elif predicted[start] == 0:
+            count += 1
+        start += 1
+    return count
+
+# Function to count continuous ones after the end of a speech segment
+def count_continuous_ones_after_end_segments(predicted, speech_segments, current_segment_index):
+    end = speech_segments[current_segment_index][1]
+    next_start = speech_segments[current_segment_index + 1][0] if current_segment_index + 1 < len(speech_segments) else len(predicted)
+    
+    count = 0
+    index = end + 1
+    while index < next_start:
+        if predicted[index] == 1:
+            count += 1
+        else:
+            break
+        index += 1
+    
+    return count
+
+# Function to calculate Front End Clipping (FEC)
+def calculate_fec(predictions, annotations):
+    speech_segments = extract_speech_segments(annotations)
+    num_fec_samples = sum(count_continuous_zeros_after_start_segments(predictions, seg) for seg in speech_segments)
+    num_speech_samples = sum(annotations)
+    return (num_fec_samples / num_speech_samples) * 100
+
+# Function to calculate Mid-Speech Clipping (MSC)
+def calculate_msc(predictions, annotations):
+    count = 0
+    for curr in range(1, len(annotations)-1):
+        if predictions[curr] == 0 and (annotations[curr-1] == 1 and annotations[curr+1] == 1):
+            count += 1
+
+    num_misclassified_as_noise = count
+    num_speech_samples = sum(annotations)
+    return (num_misclassified_as_noise / num_speech_samples) * 100
+
+# Function to calculate Over Hang (OVER)
+def calculate_over(predictions, annotations):
+    speech_segments = extract_speech_segments(annotations)
+    num_over_samples = sum(count_continuous_ones_after_end_segments(predictions, speech_segments, i) for i in range(len(speech_segments)))
+    num_silence_samples = len(annotations) - sum(annotations)
+    return (num_over_samples / num_silence_samples) * 100
+
+# Function to calculate Noise Detected as Speech (NDS)
+def calculate_nds(predictions, annotations):
+    num_noise_as_speech = sum(1 for pred, ann in zip(predictions, annotations) if pred == 1 and ann == 0)
+    num_silence_samples = len(annotations) - sum(annotations)
+    return (num_noise_as_speech / num_silence_samples) * 100
+
+def save_results_to_csv1(metrics_fec, metrics_msc, metrics_over, metrics_nds, model_names, output_file, label_paths):
+    all_results = []
+    num_files = len(metrics_fec[model_names[0]])  # Assumes all metrics have the same number of files
+    
+    for file_idx in range(num_files):
+        file = label_paths[file_idx].split('.')[0].split('/')[-1]
+        
+        for model_name in model_names:
+            fec_value = metrics_fec[model_name][file_idx]
+            msc_value = metrics_msc[model_name][file_idx]
+            over_value = metrics_over[model_name][file_idx]
+            nds_value = metrics_nds[model_name][file_idx]
+
+            result = {
+                'model': model_name,
+                'file index': file_idx,
+                'audio file': file,
+                'FEC': fec_value,
+                'MSC': msc_value,
+                'OVER': over_value,
+                'NDS': nds_value
+            }
+            all_results.append(result)
+    
+    df = pd.DataFrame(all_results)
+    df.to_csv(output_file, index=False)
+
+def show_vad_metrics_matrix1(metrics_fec, metrics_msc, metrics_over, metrics_nds, flag):
+    models = ['Pyannote', 'FunASR', 'Silero', 'SpeechBrain']
+    metrics = ['FEC', 'MSC', 'OVER', 'NDS']
+    
+    combined_data = {metric: {model: [] for model in models} for metric in metrics}
+    
+    for model_name in models:
+        combined_data['FEC'][model_name] = metrics_fec[model_name]
+        combined_data['MSC'][model_name] = metrics_msc[model_name]
+        combined_data['OVER'][model_name] = metrics_over[model_name]
+        combined_data['NDS'][model_name] = metrics_nds[model_name]
+    
+    average_data = {metric: {model: np.mean(combined_data[metric][model]) for model in models} for metric in metrics}
+    df_combined = pd.DataFrame(average_data).T
+    
+    if flag:
+        print(df_combined)
+
+    plt.figure(figsize=(12, 8))
+    plt.title("VAD Metrics Comparison")
+    sns.heatmap(df_combined, annot=True, cmap="YlGnBu", fmt=".3f")
+    plt.xticks(rotation=45, ha='right')
+    plt.yticks(rotation=0)
+    plt.show()
