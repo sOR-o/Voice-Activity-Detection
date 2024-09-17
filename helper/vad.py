@@ -514,3 +514,28 @@ def show_vad_metrics_matrix1(metrics_fec, metrics_msc, metrics_over, metrics_nds
     plt.xticks(rotation=45, ha='right')
     plt.yticks(rotation=0)
     plt.show()
+
+def save_multiple_speech_segments_as_text(segments_list, file_names, folder_path):
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+    
+    if len(segments_list) != len(file_names):
+        raise ValueError("The number of segments lists must match the number of file names.")
+    
+    for segments, file_name in zip(segments_list, file_names):
+        file_path = os.path.join(folder_path, file_name)
+        
+        with open(file_path, 'w') as file:
+            for segment in segments:
+                start_time, end_time = segment['speech']
+                file.write(f"{start_time:.6f}\t{end_time:.6f}\tspeech\n")
+
+def extract_filenames_as_string(file_paths):
+    filenames = []
+    
+    for path in file_paths:
+        filename = os.path.basename(path)
+        if filename.endswith('.txt'):
+            filenames.append(filename)
+    
+    return filenames
