@@ -27,15 +27,18 @@ def visualize_all_metrics(results_pyannote, results_funasr, results_silero, resu
     fig, axs = plt.subplots(1, 7, figsize=(35, 5))
     
     for i, metric in enumerate(metrics_names):
-        axs[i].plot(SNRs_pyannote, metrics_pyannote[metric], label='Pyannote', marker='o')
-        axs[i].plot(SNRs_funasr, metrics_funasr[metric], label='FunASR', marker='s')
-        axs[i].plot(SNRs_silero, metrics_silero[metric], label='Silero', marker='^')
-        axs[i].plot(SNRs_speechbrain, metrics_speechbrain[metric], label='SpeechBrain', marker='d')
+        axs[i].plot(SNRs_pyannote, metrics_pyannote[metric], label='Pyannote')
+        axs[i].plot(SNRs_funasr, metrics_funasr[metric], label='FunASR')
+        axs[i].plot(SNRs_silero, metrics_silero[metric], label='Silero')
+        axs[i].plot(SNRs_speechbrain, metrics_speechbrain[metric], label='SpeechBrain')
         axs[i].set_title(f'{metric.capitalize()} vs SNR')
         axs[i].set_xlabel('SNR (dB)')
         axs[i].set_ylabel(metric.capitalize())
-        axs[i].grid(True)
         axs[i].legend()
+
+        # Remove the top and right spines (box edges)
+        axs[i].spines['top'].set_visible(False)
+        axs[i].spines['right'].set_visible(False)
     
     plt.tight_layout()
     plt.show()
@@ -103,7 +106,7 @@ def evaluate_vad(output_segments, annotated_segments):
         elif 'notspeech' in seg:
             annotated_intervals.append((seg['notspeech'][0], seg['notspeech'][1], 'notspeech'))
 
-    resolution = 0.01
+    resolution = 0.001
     max_time = max(max(end for _, end, _ in annotated_intervals), max(end for _, end, _ in output_intervals))
     time_points = [i * resolution for i in range(int(max_time / resolution) + 1)]
 
@@ -368,7 +371,6 @@ def show_vad_matrix_bh(avg_pyannote, avg_funasr,  avg_silero, avg_speechbrain, f
 def save_results_to_csv(results, model_names, output_file, label_paths):
     all_results = []
     num_files = len(results[0]) 
-    print(num_files)
 
     for file_idx in range(num_files):
         
@@ -443,7 +445,7 @@ def calculate_fec(predictions, annotations):
 def calculate_msc(predictions, annotations):
     count = 0
     for curr in range(1, len(annotations)-1):
-        if predictions[curr] == 0 and (annotations[curr-1] == 1 and annotations[curr+1] == 1):
+        if predictions[curr] == 0 and (annotations[curr-1] == 1 and annotations[curr+1] == 1 and annotations[curr] != 0):
             count += 1
 
     num_misclassified_as_noise = count
@@ -459,7 +461,10 @@ def calculate_over(predictions, annotations):
 
 # Function to calculate Noise Detected as Speech (NDS)
 def calculate_nds(predictions, annotations):
+    speech_segments = extract_speech_segments(annotations)
+    num_over_samples = sum(count_continuous_ones_after_end_segments(predictions, speech_segments, i) for i in range(len(speech_segments)))
     num_noise_as_speech = sum(1 for pred, ann in zip(predictions, annotations) if pred == 1 and ann == 0)
+    num_noise_as_speech -= num_over_samples
     num_silence_samples = len(annotations) - sum(annotations)
     return (num_noise_as_speech / num_silence_samples) * 100
 
