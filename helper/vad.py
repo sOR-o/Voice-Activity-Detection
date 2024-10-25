@@ -69,7 +69,13 @@ def parse_annotations_file(file_path):
     return annotated_segments
 
 def evaluate_vad_cmatrix(output_segments, annotated_segments):
-    output_intervals = [(seg['speech'][0], seg['speech'][1], 'speech') for seg in output_segments]
+    # Handle the case where output_segments is None (no speech detected)
+    if output_segments is None:
+        output_intervals = []
+    else:
+        output_intervals = [(seg['speech'][0], seg['speech'][1], 'speech') for seg in output_segments]
+
+    # Process annotated segments
     annotated_intervals = []
     for seg in annotated_segments:
         if 'speech' in seg:
@@ -77,27 +83,65 @@ def evaluate_vad_cmatrix(output_segments, annotated_segments):
         elif 'notspeech' in seg:
             annotated_intervals.append((seg['notspeech'][0], seg['notspeech'][1], 'notspeech'))
 
+    # Define time resolution and max time based on annotations and output
     resolution = 0.001
-    max_time = max(max(end for _, end, _ in annotated_intervals), max(end for _, end, _ in output_intervals))
+    max_time = max(max(end for _, end, _ in annotated_intervals), 0)  # Default to 0 if no output_intervals
+    if output_intervals:
+        max_time = max(max(end for _, end, _ in annotated_intervals), max(end for _, end, _ in output_intervals))
+
     time_points = [i * resolution for i in range(int(max_time / resolution) + 1)]
 
+    # Initialize y_true and y_pred as "notspeech" (i.e., 0 for binary representation)
     y_true = ['notspeech'] * len(time_points)
     y_pred = ['notspeech'] * len(time_points)
 
+    # Fill y_true based on annotated_intervals
     for start, end, label in annotated_intervals:
         for i in range(int(start / resolution), int(end / resolution)):
             y_true[i] = label
 
+    # Fill y_pred based on output_intervals (if any)
     for start, end, label in output_intervals:
         for i in range(int(start / resolution), int(end / resolution)):
             y_pred[i] = label
 
+    # Convert y_true and y_pred to binary arrays (1 for speech, 0 for notspeech)
     y_true_binary = [1 if label == 'speech' else 0 for label in y_true]
     y_pred_binary = [1 if label == 'speech' else 0 for label in y_pred]
 
     return y_true_binary, y_pred_binary
 
+# def evaluate_vad_cmatrix(output_segments, annotated_segments):
+#     output_intervals = [(seg['speech'][0], seg['speech'][1], 'speech') for seg in output_segments]
+#     annotated_intervals = []
+#     for seg in annotated_segments:
+#         if 'speech' in seg:
+#             annotated_intervals.append((seg['speech'][0], seg['speech'][1], 'speech'))
+#         elif 'notspeech' in seg:
+#             annotated_intervals.append((seg['notspeech'][0], seg['notspeech'][1], 'notspeech'))
+
+#     resolution = 0.001
+#     max_time = max(max(end for _, end, _ in annotated_intervals), max(end for _, end, _ in output_intervals))
+#     time_points = [i * resolution for i in range(int(max_time / resolution) + 1)]
+
+#     y_true = ['notspeech'] * len(time_points)
+#     y_pred = ['notspeech'] * len(time_points)
+
+#     for start, end, label in annotated_intervals:
+#         for i in range(int(start / resolution), int(end / resolution)):
+#             y_true[i] = label
+
+#     for start, end, label in output_intervals:
+#         for i in range(int(start / resolution), int(end / resolution)):
+#             y_pred[i] = label
+
+#     y_true_binary = [1 if label == 'speech' else 0 for label in y_true]
+#     y_pred_binary = [1 if label == 'speech' else 0 for label in y_pred]
+
+#     return y_true_binary, y_pred_binary
+
 def evaluate_vad(output_segments, annotated_segments):
+    # Convert segments to intervals
     output_intervals = [(seg['speech'][0], seg['speech'][1], 'speech') for seg in output_segments]
     annotated_intervals = []
     for seg in annotated_segments:
@@ -106,28 +150,36 @@ def evaluate_vad(output_segments, annotated_segments):
         elif 'notspeech' in seg:
             annotated_intervals.append((seg['notspeech'][0], seg['notspeech'][1], 'notspeech'))
 
+    # Time resolution and max time
     resolution = 0.001
-    max_time = max(max(end for _, end, _ in annotated_intervals), max(end for _, end, _ in output_intervals))
+    max_time = max(max(end for _, end, _ in annotated_intervals), 
+                   max((end for _, end, _ in output_intervals), default=0))  # Handle empty output_segments
+
     time_points = [i * resolution for i in range(int(max_time / resolution) + 1)]
 
+    # Initialize y_true and y_pred with 'notspeech'
     y_true = ['notspeech'] * len(time_points)
     y_pred = ['notspeech'] * len(time_points)
 
+    # Fill true labels based on annotated segments
     for start, end, label in annotated_intervals:
         for i in range(int(start / resolution), int(end / resolution)):
             y_true[i] = label
 
-    for start, end, label in output_intervals:
-        for i in range(int(start / resolution), int(end / resolution)):
-            y_pred[i] = label
+    # Fill predicted labels based on output segments if they exist
+    if output_segments:
+        for start, end, label in output_intervals:
+            for i in range(int(start / resolution), int(end / resolution)):
+                y_pred[i] = label
 
+    # Convert labels to binary (1 for speech, 0 for notspeech)
     y_true_binary = [1 if label == 'speech' else 0 for label in y_true]
     y_pred_binary = [1 if label == 'speech' else 0 for label in y_pred]
 
     # Calculate evaluation metrics
-    precision = precision_score(y_true_binary, y_pred_binary)
-    recall = recall_score(y_true_binary, y_pred_binary)
-    f1 = f1_score(y_true_binary, y_pred_binary)
+    precision = precision_score(y_true_binary, y_pred_binary, zero_division=0)
+    recall = recall_score(y_true_binary, y_pred_binary, zero_division=0)
+    f1 = f1_score(y_true_binary, y_pred_binary, zero_division=0)
     accuracy = accuracy_score(y_true_binary, y_pred_binary)
 
     # Calculate Specificity
@@ -136,13 +188,11 @@ def evaluate_vad(output_segments, annotated_segments):
     specificity = true_negatives / (true_negatives + false_positives) if (true_negatives + false_positives) > 0 else 0
 
     # Calculate False Discovery Rate (FDR)
-    false_positives = sum(1 for true, pred in zip(y_true_binary, y_pred_binary) if true == 0 and pred == 1)
     true_positives = sum(1 for true, pred in zip(y_true_binary, y_pred_binary) if true == 1 and pred == 1)
     fdr = false_positives / (false_positives + true_positives) if (false_positives + true_positives) > 0 else 0
 
     # Calculate Miss Rate (False Negative Rate)
     false_negatives = sum(1 for true, pred in zip(y_true_binary, y_pred_binary) if true == 1 and pred == 0)
-    true_positives = sum(1 for true, pred in zip(y_true_binary, y_pred_binary) if true == 1 and pred == 1)
     miss_rate = false_negatives / (false_negatives + true_positives) if (false_negatives + true_positives) > 0 else 0
 
     return {
@@ -154,6 +204,8 @@ def evaluate_vad(output_segments, annotated_segments):
         'fdr': fdr,
         'miss_rate': miss_rate
     }
+
+
 
 def add_noise(audio_path, noise_path, snr):
     # Load audio and noise

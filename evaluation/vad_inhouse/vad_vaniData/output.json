@@ -1,0 +1,1892 @@
+{
+    "IISc_VaaniProject_S_Telengana_Karimnagar_125133_12113781_JAT_240950_19469_20971": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Gaya_Nibh48584_0857530000_CGKDFM_26989_9664_18506": {
+        "sil": "[[np.float64(3.81), np.float64(4.7)]]",
+        "bsil": "0.0",
+        "msil": "0.89",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Kishanganj_67281_9700990_BHARBU_352083_7172_19035": {
+        "sil": "[[np.float64(0.69), np.float64(1.08)], [np.float64(3.03), np.float64(3.51)], [np.float64(5.45), np.float64(5.9)], [np.float64(7.89), np.float64(8.39)], [np.float64(9.83), np.float64(10.25)]]",
+        "bsil": "0.0",
+        "msil": "0.5",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_MH_Nagpur_Vais63706_1302430000_MRNBR_29976_12128_23552": {
+        "sil": "[[np.float64(2.6), np.float64(3.0)], [np.float64(4.27), np.float64(4.72)], [np.float64(7.41), np.float64(8.12)], [np.float64(9.75), np.float64(10.29)]]",
+        "bsil": "0.0",
+        "msil": "0.71",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_115754_11821294_BHRI_155534_0_6720": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Raigarh_Heml72616_1255390000_MRAFE_256201_21685_24320": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Purulia_Moho55313_0705550000_WBPLOTHER_183497_0_9580": {
+        "sil": "[[np.float64(4.23), np.float64(4.66)]]",
+        "bsil": "0.0",
+        "msil": "0.43",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Dharwad_45525383_1811310000_KTDHHO_12092_4876_10402": {
+        "sil": "[[np.float64(0.85), np.float64(1.73)], [np.float64(4.51), np.float64(4.85)]]",
+        "bsil": "0.0",
+        "msil": "0.88",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Raigarh_Chha01174_1835130000_CGRGWAF_186823_14516_16717": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_69440_10175417_BHMQ_155527_0_3711": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Bilaspur_Prak70442_1443220000_CGBLST_11484_15329_17130": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_AP_Anantpur_124081_12608634_CGBTBK_252759_380_14963": {
+        "sil": "[[np.float64(7.27), np.float64(7.65)], [np.float64(10.9), np.float64(11.28)]]",
+        "bsil": "0.0",
+        "msil": "0.38",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Telengana_Karimnagar_120978_12355488_TGKOF_203063_6454_18032": {
+        "sil": "[[np.float64(5.63), np.float64(5.87)]]",
+        "bsil": "0.0",
+        "msil": "0.24",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Gaya_02606824_0906320000_BHGJTE_1738_537_9108": {
+        "sil": "[[np.float64(1.21), np.float64(1.64)], [np.float64(3.45), np.float64(3.99)], [np.float64(4.21), np.float64(4.71)], [np.float64(6.61), np.float64(7.2)]]",
+        "bsil": "0.0",
+        "msil": "0.59",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_AP_Chittoor_129548_12256843_APCTBK_93195_12048_19293": {
+        "sil": "[[np.float64(2.03), np.float64(2.49)], [np.float64(2.6), np.float64(2.86)], [np.float64(4.09), np.float64(4.95)], [np.float64(6.41), np.float64(6.92)]]",
+        "bsil": "0.0",
+        "msil": "0.86",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Deoria_60327_9421841_UPDEWP_133853_0_9776": {
+        "sil": "[[np.float64(1.48), np.float64(1.85)], [np.float64(3.48), np.float64(3.85)]]",
+        "bsil": "0.0",
+        "msil": "0.37",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_AP_Anantpur_114561_11876394_BHARCH_352235_0_8988": {
+        "sil": "[[np.float64(5.12), np.float64(5.5)], [np.float64(8.69), np.float64(8.99)]]",
+        "bsil": "0.0",
+        "msil": "0.38",
+        "esil": "0.3"
+    },
+    "IISc_VaaniProject_M_BR_EastChamparan_Deep00673_0659000000_TGKSR_101728_10115_12173": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Gaya_Binu58959_0510060000_BHGJSH_123123_234_2517": {
+        "sil": "[[np.float64(1.55), np.float64(1.73)]]",
+        "bsil": "0.0",
+        "msil": "0.18",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_EastChamparan_57392_9385361_UPVNTEP_234491_0_7654": {
+        "sil": "[[np.float64(0.52), np.float64(0.84)]]",
+        "bsil": "0.0",
+        "msil": "0.32",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Vaishali_Jabk66468_0916190000_BHGJBA_4830_13291_20332": {
+        "sil": "[[np.float64(0.15), np.float64(0.91)], [np.float64(1.74), np.float64(2.08)], [np.float64(2.78), np.float64(3.31)], [np.float64(5.33), np.float64(5.66)]]",
+        "bsil": "0.0",
+        "msil": "0.76",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Saharsa_75771234_0758370000_BHSHGT_167942_1799_4957": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Madhepura_141012_13019365_CGBTHO_45893_8164_21135": {
+        "sil": "[[np.float64(1.58), np.float64(2.17)], [np.float64(4.93), np.float64(5.49)], [np.float64(7.7), np.float64(8.07)], [np.float64(10.99), np.float64(11.37)], [np.float64(12.57), np.float64(12.92)]]",
+        "bsil": "0.0",
+        "msil": "0.59",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Saharsa_06849038_0917180000_KTDHOTHER_299190_7012_14558": {
+        "sil": "[[np.float64(1.7), np.float64(2.01)], [np.float64(4.44), np.float64(4.87)]]",
+        "bsil": "0.0",
+        "msil": "0.43",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_69125_10000396_UPVNTHP_214037_163_10952": {
+        "sil": "[[np.float64(1.06), np.float64(1.36)], [np.float64(1.47), np.float64(1.79)], [np.float64(4.25), np.float64(4.4)], [np.float64(9.46), np.float64(9.7)]]",
+        "bsil": "0.0",
+        "msil": "0.32",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_AP_Anantpur_115507_11796947_KTDKAMT_204088_7773_16780": {
+        "sil": "[[np.float64(1.04), np.float64(1.41)], [np.float64(2.68), np.float64(3.25)], [np.float64(5.28), np.float64(6.07)], [np.float64(7.59), np.float64(7.99)]]",
+        "bsil": "0.0",
+        "msil": "0.79",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Rajnandgaon_96099_10896754_CGBTOTHER_301962_6582_16862": {
+        "sil": "[[np.float64(6.75), np.float64(7.39)], [np.float64(7.82), np.float64(8.12)]]",
+        "bsil": "0.0",
+        "msil": "0.64",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_MH_Solapur_Kaja79589_0827340000_MRSOTHER_284629_6603_15240": {
+        "sil": "[[np.float64(3.02), np.float64(3.57)], [np.float64(4.15), np.float64(4.49)], [np.float64(6.74), np.float64(7.05)]]",
+        "bsil": "0.0",
+        "msil": "0.55",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_MH_Dhule_53692336_1800420000_BHARBR_352036_15114_17664": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Jashpur_03592432_0840410000_CGJPSR_268199_1920_6581": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_AP_Anantpur_18309118_1155480000_BHDM_142182_1760_6037": {
+        "sil": "[[np.float64(0.81), np.float64(1.69)]]",
+        "bsil": "0.0",
+        "msil": "0.88",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Karnataka_Belgaum_131018_12721887_KTBGA_180297_8570_18984": {
+        "sil": "[[np.float64(1.17), np.float64(1.43)], [np.float64(5.98), np.float64(6.42)], [np.float64(7.41), np.float64(7.76)], [np.float64(10.2), np.float64(10.42)]]",
+        "bsil": "0.0",
+        "msil": "0.44",
+        "esil": "0.22"
+    },
+    "IISc_VaaniProject_M_BR_Vaishali_Niha85968_1158460000_APVEV_115982_15742_20400": {
+        "sil": "[[np.float64(1.14), np.float64(1.56)]]",
+        "bsil": "0.0",
+        "msil": "0.42",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_69678_9864596_BHJHGOB_115810_8_13236": {
+        "sil": "[[np.float64(1.17), np.float64(1.42)], [np.float64(3.2), np.float64(3.67)], [np.float64(4.08), np.float64(4.87)], [np.float64(5.52), np.float64(6.13)], [np.float64(7.23), np.float64(7.63)], [np.float64(8.11), np.float64(8.93)], [np.float64(9.52), np.float64(9.9)], [np.float64(10.88), np.float64(11.34)]]",
+        "bsil": "0.0",
+        "msil": "0.82",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_AP_Guntur_117715_11917232_APGUSP_13417_1974_13359": {
+        "sil": "[[np.float64(0.52), np.float64(0.81)], [np.float64(3.58), np.float64(3.9)], [np.float64(4.77), np.float64(5.19)], [np.float64(7.17), np.float64(7.95)], [np.float64(8.57), np.float64(8.9)], [np.float64(10.99), np.float64(11.39)]]",
+        "bsil": "0.0",
+        "msil": "0.78",
+        "esil": "0.4"
+    },
+    "IISc_VaaniProject_M_KA_Belgaum_Raje88242_1620010000_KTBBU_320978_14584_23251": {
+        "sil": "[[np.float64(2.37), np.float64(2.61)], [np.float64(4.09), np.float64(4.57)]]",
+        "bsil": "0.0",
+        "msil": "0.48",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_MH_Pune_61092202_1207420000_BHGGEV_363733_5354_10880": {
+        "sil": "[[np.float64(2.0), np.float64(2.43)], [np.float64(2.97), np.float64(3.28)]]",
+        "bsil": "0.0",
+        "msil": "0.43",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_EastChamparan_80855_10335976_BHECHST_357295_8_7470": {
+        "sil": "[[np.float64(3.11), np.float64(3.51)]]",
+        "bsil": "0.0",
+        "msil": "0.4",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Bilaspur_Riti13758_0925100000_CGBLUN_12950_10278_12289": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Mysore_Priy39213_1104500000_BHECHBU_356452_17376_24565": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_WestBengal_North24Parganas_99652_11034952_APVEX_255011_269_12394": {
+        "sil": "[[np.float64(3.02), np.float64(3.46)], [np.float64(6.02), np.float64(6.44)], [np.float64(9.23), np.float64(9.64)]]",
+        "bsil": "0.0",
+        "msil": "0.44",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Madhepura_Prya30372_1727170000_BHECHBR_135452_17786_24280": {
+        "sil": "[[np.float64(1.54), np.float64(1.85)], [np.float64(4.99), np.float64(5.61)]]",
+        "bsil": "0.0",
+        "msil": "0.62",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Gorakhpur_62908_9520758_BHVSCOHW_338394_189_11756": {
+        "sil": "[[np.float64(6.52), np.float64(7.24)], [np.float64(8.93), np.float64(9.11)], [np.float64(9.42), np.float64(10.0)]]",
+        "bsil": "0.0",
+        "msil": "0.72",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Karnataka_Mysore_144491_13300699_IMG20220911152409_4279_15351": {
+        "sil": "[[np.float64(0.34), np.float64(0.7)], [np.float64(5.44), np.float64(5.82)], [np.float64(7.18), np.float64(7.45)], [np.float64(8.64), np.float64(9.16)]]",
+        "bsil": "0.0",
+        "msil": "0.52",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Shimoga_Span29494_1852350000_JKJCO_126825_16615_22695": {
+        "sil": "[[np.float64(1.97), np.float64(2.34)], [np.float64(4.82), np.float64(5.19)]]",
+        "bsil": "0.0",
+        "msil": "0.37",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Varanasi_70826_9861711_MRAFE_207067_11359_18839": {
+        "sil": "[[np.float64(0.88), np.float64(1.32)], [np.float64(5.03), np.float64(5.6)]]",
+        "bsil": "0.0",
+        "msil": "0.57",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Korba_112517_11607544_CGKBBU_42465_0_10516": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Varanasi_81149_10349003_KTCMCO_158183_477_8875": {
+        "sil": "[[np.float64(1.87), np.float64(2.5)], [np.float64(4.3), np.float64(4.85)], [np.float64(5.38), np.float64(5.74)]]",
+        "bsil": "0.0",
+        "msil": "0.63",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Jashpur_Pris77590_0255310000_BHARBA_351883_12138_22869": {
+        "sil": "[[np.float64(1.0), np.float64(1.28)], [np.float64(2.54), np.float64(3.01)], [np.float64(4.58), np.float64(4.86)], [np.float64(6.47), np.float64(7.01)]]",
+        "bsil": "0.0",
+        "msil": "0.54",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Jalpaiguri_Tanm75193_0509470000_BHECHBA_356299_4807_7583": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Begusarai_Char88568_1220310000_UPVNHIS_234427_5178_12996": {
+        "sil": "[[np.float64(0.6), np.float64(0.98)], [np.float64(1.89), np.float64(2.15)], [np.float64(4.48), np.float64(5.13)]]",
+        "bsil": "0.0",
+        "msil": "0.65",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_69678_9863994_BHJHARS_115665_11184_18883": {
+        "sil": "[[np.float64(0.36), np.float64(1.09)], [np.float64(2.23), np.float64(2.97)], [np.float64(5.64), np.float64(6.22)]]",
+        "bsil": "0.0",
+        "msil": "0.74",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Dharwad_53048069_1208170000_KTDHZO_485_1280_7594": {
+        "sil": "[[np.float64(1.77), np.float64(2.22)], [np.float64(5.02), np.float64(5.33)]]",
+        "bsil": "0.0",
+        "msil": "0.45",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Gorakhpur_65398_9869742_UPVNINCG_147071_10731_14664": {
+        "sil": "[[np.float64(2.95), np.float64(3.45)]]",
+        "bsil": "0.0",
+        "msil": "0.5",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Sitamarhi_Prit69625_0844150000_BHSMCYR_332948_10037_17598": {
+        "sil": "[[np.float64(0.7), np.float64(1.13)], [np.float64(3.83), np.float64(4.56)], [np.float64(6.44), np.float64(6.59)]]",
+        "bsil": "0.0",
+        "msil": "0.73",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Vaishali_122213_12495474_BHVSAC_337899_3_12356": {
+        "sil": "[[np.float64(6.32), np.float64(6.77)]]",
+        "bsil": "0.0",
+        "msil": "0.45",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_122195_12057006_BHGJBR_169544_60_5442": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_WestBengal_Kolkata_97705_10956859_WBKKWAS_285393_11516_18809": {
+        "sil": "[[np.float64(0.97), np.float64(1.37)], [np.float64(3.75), np.float64(4.04)]]",
+        "bsil": "0.0",
+        "msil": "0.4",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Chandrapur_152025_13650451_TGNLFLM_14947_0_8678": {
+        "sil": "[[np.float64(6.43), np.float64(6.7)]]",
+        "bsil": "0.0",
+        "msil": "0.27",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_129367_12207350_CGBTFA_255511_12020_20950": {
+        "sil": "[[np.float64(2.55), np.float64(3.02)], [np.float64(3.97), np.float64(4.26)], [np.float64(5.63), np.float64(5.95)]]",
+        "bsil": "0.0",
+        "msil": "0.47",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_JyotibaPhuleNagar_134168_12713569_UPVNTA_123290_10261_18159": {
+        "sil": "[[np.float64(3.18), np.float64(3.58)]]",
+        "bsil": "0.0",
+        "msil": "0.4",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Jashpur_Pins67890_0054560000_CGJPFS_222120_15552_23744": {
+        "sil": "[[np.float64(2.2), np.float64(2.75)], [np.float64(3.59), np.float64(4.33)], [np.float64(6.93), np.float64(7.31)]]",
+        "bsil": "0.0",
+        "msil": "0.74",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_122195_12390779_BHGJPL_185976_0_9306": {
+        "sil": "[[np.float64(3.43), np.float64(3.75)], [np.float64(4.93), np.float64(5.21)], [np.float64(7.84), np.float64(8.18)]]",
+        "bsil": "0.0",
+        "msil": "0.34",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Chandrapur_102726_11340635_MRCPP_91517_7171_9350": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Dharwad_13883416_1542450000_KTDHGOB_40779_448_9045": {
+        "sil": "[[np.float64(1.15), np.float64(1.53)], [np.float64(3.0), np.float64(3.64)], [np.float64(6.52), np.float64(6.87)]]",
+        "bsil": "0.0",
+        "msil": "0.64",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_EastChamparan_122859_12468708_BHECHOTHER_357119_8431_19498": {
+        "sil": "[[np.float64(3.66), np.float64(4.12)]]",
+        "bsil": "0.0",
+        "msil": "0.46",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Raigarh_Pree27994_1006470000_CGSGHO_105889_4650_7221": {
+        "sil": "[[np.float64(1.01), np.float64(1.6)]]",
+        "bsil": "0.0",
+        "msil": "0.59",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_UP_Deoria_Monu70879_1852100000_UPDEOTHER_296918_19709_23345": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Jahanabad_139058_13002921_GY_110105_0_4446": {
+        "sil": "[[np.float64(0.19), np.float64(0.46)]]",
+        "bsil": "0.0",
+        "msil": "0.27",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Raigarh_Rukm02071_1555460000_CGRGFA_192916_5897_8091": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Telengana_Karimnagar_129229_12620665_TGKTR_202995_25_6983": {
+        "sil": "[[np.float64(4.13), np.float64(4.69)]]",
+        "bsil": "0.0",
+        "msil": "0.56",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_MH_Dhule_Bhar79643_1749410000_MRDCO_298695_8714_16385": {
+        "sil": "[[np.float64(5.56), np.float64(6.06)]]",
+        "bsil": "0.0",
+        "msil": "0.5",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Bellary_Radh87821_0839210000_KTBEOTHER_340872_1002_18581": {
+        "sil": "[[np.float64(0.68), np.float64(1.05)], [np.float64(5.4), np.float64(5.82)], [np.float64(8.21), np.float64(8.78)], [np.float64(12.99), np.float64(13.28)], [np.float64(17.25), np.float64(17.58)]]",
+        "bsil": "0.0",
+        "msil": "0.57",
+        "esil": "0.33"
+    },
+    "IISc_VaaniProject_S_Bihar_Lakhisarai_119148_11967528_BHLSFIM_238480_9905_16537": {
+        "sil": "[[np.float64(0.97), np.float64(1.27)], [np.float64(2.75), np.float64(3.19)]]",
+        "bsil": "0.0",
+        "msil": "0.44",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Jharkhand_Jamtara_91991_10769336_JKJRAS_164430_2_7610": {
+        "sil": "[[np.float64(4.07), np.float64(4.39)]]",
+        "bsil": "0.0",
+        "msil": "0.32",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Jashpur_Tani29992_0120560000_BHGA_113979_1112_10752": {
+        "sil": "[[np.float64(4.92), np.float64(5.4)]]",
+        "bsil": "0.0",
+        "msil": "0.48",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Mysore_86576155_1525010000_KTMEC_308184_10077_13165": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Budaun_60050_9413685_APVCOS_115849_10697_20950": {
+        "sil": "[[np.float64(1.55), np.float64(2.18)], [np.float64(6.1), np.float64(6.31)], [np.float64(6.78), np.float64(7.43)], [np.float64(8.77), np.float64(9.32)]]",
+        "bsil": "0.0",
+        "msil": "0.65",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Jahanabad_Parm84913_1020030000_UPVNLA_222779_5369_7626": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Vaishali_Raje63402_1407110000_BHGGGY_364057_7921_16405": {
+        "sil": "[[np.float64(4.23), np.float64(4.99)], [np.float64(6.55), np.float64(7.03)]]",
+        "bsil": "0.0",
+        "msil": "0.76",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Madhepura_Kart62134_0751230000_BHMPSC_368445_394_8295": {
+        "sil": "[[np.float64(0.39), np.float64(0.67)], [np.float64(2.36), np.float64(2.66)], [np.float64(4.42), np.float64(4.76)], [np.float64(5.63), np.float64(5.92)]]",
+        "bsil": "0.0",
+        "msil": "0.34",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_AP_Anantpur_118546_11942320_APATBU_46744_12_8405": {
+        "sil": "[[np.float64(1.38), np.float64(1.74)], [np.float64(2.84), np.float64(3.25)], [np.float64(5.32), np.float64(5.79)]]",
+        "bsil": "0.0",
+        "msil": "0.47",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Bilaspur_122815_12185088_CGBLFOS_259224_8411_14689": {
+        "sil": "[[np.float64(1.85), np.float64(2.36)]]",
+        "bsil": "0.0",
+        "msil": "0.51",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Deoria_65296_9618471_TGKMEC_81800_10811_19689": {
+        "sil": "[[np.float64(2.54), np.float64(2.96)], [np.float64(5.15), np.float64(5.77)]]",
+        "bsil": "0.0",
+        "msil": "0.62",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Deoria_63827_9553664_CGKDOTHER_301477_9298_13451": {
+        "sil": "[[np.float64(2.4), np.float64(2.68)]]",
+        "bsil": "0.0",
+        "msil": "0.28",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Malda_Sabi65439_0946320000_CGBTDAF_201629_16021_20133": {
+        "sil": "[[np.float64(0.61), np.float64(0.93)], [np.float64(2.06), np.float64(2.39)]]",
+        "bsil": "0.0",
+        "msil": "0.33",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Vaishali_Niha85968_1146340000_BHVSDAF_338418_2315_5156": {
+        "sil": "[[np.float64(0.43), np.float64(1.39)]]",
+        "bsil": "0.0",
+        "msil": "0.96",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_WestBengal_Jalpaiguri_67568_9713295_UPVNLI_49426_102_9066": {
+        "sil": "[[np.float64(0.76), np.float64(1.54)], [np.float64(3.69), np.float64(4.23)], [np.float64(7.33), np.float64(7.66)]]",
+        "bsil": "0.0",
+        "msil": "0.78",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_AP_Srikakulam_130557_12540867_APSRSR_97099_479_10639": {
+        "sil": "[[np.float64(2.42), np.float64(3.12)], [np.float64(3.85), np.float64(4.56)], [np.float64(6.68), np.float64(7.21)]]",
+        "bsil": "0.0",
+        "msil": "0.71",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Madhepura_Ansh61760_1126420000_TGKSC_8400_0_2471": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_WestBengal_Kolkata_104562_11231386_KKOTHER_292241_0_12372": {
+        "sil": "[[np.float64(0.67), np.float64(0.92)], [np.float64(8.76), np.float64(9.15)], [np.float64(9.6), np.float64(9.77)]]",
+        "bsil": "0.0",
+        "msil": "0.39",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_WestBengal_Jhargram_102676_11134297_WBJRST_170753_10631_18157": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_WestBengal_PaschimMedinipur_71571_9927793_TGNLSC_15238_9086_16759": {
+        "sil": "[[np.float64(3.1), np.float64(3.48)], [np.float64(5.07), np.float64(5.49)], [np.float64(7.44), np.float64(7.68)]]",
+        "bsil": "0.0",
+        "msil": "0.42",
+        "esil": "0.24"
+    },
+    "IISc_VaaniProject_M_UP_Varanasi_Anur31785_1740080000_JKJGOB_370639_10645_12906": {
+        "sil": "[[np.float64(1.16), np.float64(1.46)]]",
+        "bsil": "0.0",
+        "msil": "0.3",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Korba_96921_10925940_CGKBIS_152427_0_4699": {
+        "sil": "[[np.float64(2.24), np.float64(2.63)], [np.float64(2.85), np.float64(3.28)]]",
+        "bsil": "0.0",
+        "msil": "0.43",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Jashpur_75612_10125718_UPVNHO_17386_10334_19820": {
+        "sil": "[[np.float64(3.74), np.float64(4.15)], [np.float64(6.37), np.float64(6.79)], [np.float64(7.54), np.float64(7.83)]]",
+        "bsil": "0.0",
+        "msil": "0.42",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_UP_Ghazipur_19692727_0908380000_TGNLFM_14665_12399_13568": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Balrampur_102007_11108484_CGBMBIS_83381_0_9617": {
+        "sil": "[[np.float64(0.0), np.float64(0.47)]]",
+        "bsil": "0.47",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_AP_Chittoor_139013_13072060_APCTGS_93265_338_1908": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Karnataka_Dharwad_143748_13699059_KTDHSU_35076_10_9846": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_PaschimMedinipur_Bars18016_1128360000_APCTAT_93189_961_8348": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Kolkata_13764598_1453270000_BHGGBA_363511_16378_19980": {
+        "sil": "[[np.float64(1.0), np.float64(1.49)]]",
+        "bsil": "0.0",
+        "msil": "0.49",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Purulia_Shya23698_1456190000_WBPLDM_156648_1520_6130": {
+        "sil": "[[np.float64(0.39), np.float64(1.11)], [np.float64(1.77), np.float64(2.1)]]",
+        "bsil": "0.0",
+        "msil": "0.72",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Telengana_Nalgonda_93621_10847020_BHGJTNT_193315_0_4417": {
+        "sil": "[[np.float64(1.9), np.float64(2.21)]]",
+        "bsil": "0.0",
+        "msil": "0.31",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Budaun_138405_12986268_UPBUFOS_54520_0_10611": {
+        "sil": "[[np.float64(2.12), np.float64(2.62)], [np.float64(6.02), np.float64(6.39)]]",
+        "bsil": "0.0",
+        "msil": "0.5",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Korba_121683_12327686_CGKBDA_87845_312_8820": {
+        "sil": "[[np.float64(0.24), np.float64(0.57)], [np.float64(6.33), np.float64(6.64)]]",
+        "bsil": "0.0",
+        "msil": "0.33",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Kolkata_44962806_1604480000_MRDRAS_298261_15925_20682": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Purulia_Madh22584_0357500000_WBPLFE_166603_9343_17600": {
+        "sil": "[[np.float64(0.75), np.float64(1.16)], [np.float64(4.11), np.float64(4.38)], [np.float64(4.9), np.float64(5.35)], [np.float64(6.51), np.float64(7.09)]]",
+        "bsil": "0.0",
+        "msil": "0.58",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Shimoga_Abhi57746_1058350000_KTSMGBU_336240_5917_9695": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Deoria_61704_9446394_UPDEWP_98745_13681_20962": {
+        "sil": "[[np.float64(2.03), np.float64(2.23)], [np.float64(3.11), np.float64(3.47)]]",
+        "bsil": "0.0",
+        "msil": "0.36",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_128223_12213004_BHGJAT_10376_0_7510": {
+        "sil": "[[np.float64(2.49), np.float64(3.08)], [np.float64(4.15), np.float64(4.83)], [np.float64(5.07), np.float64(5.43)]]",
+        "bsil": "0.0",
+        "msil": "0.68",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Begusarai_110686_11567788_BHGGCH_363632_0_6067": {
+        "sil": "[[np.float64(2.31), np.float64(2.68)]]",
+        "bsil": "0.0",
+        "msil": "0.37",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Raigarh_Devi58453_1131590000_BHGGGOB_364034_7996_10230": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_120512_12396164_BHGJPP_169603_400_3562": {
+        "sil": "[[np.float64(1.46), np.float64(2.08)]]",
+        "bsil": "0.0",
+        "msil": "0.62",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Korba_90523_10677761_CGKBBUPS_230917_102_12441": {
+        "sil": "[[np.float64(2.71), np.float64(3.05)], [np.float64(4.17), np.float64(4.53)], [np.float64(4.9), np.float64(5.18)], [np.float64(8.25), np.float64(8.66)], [np.float64(9.39), np.float64(9.88)]]",
+        "bsil": "0.0",
+        "msil": "0.49",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Jashpur_40518000_0601310000_TGKME_83083_10666_13504": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_AP_Anantpur_107465_11421518_MRADA_80991_8_9522": {
+        "sil": "[[np.float64(4.6), np.float64(5.09)], [np.float64(6.8), np.float64(7.44)]]",
+        "bsil": "0.0",
+        "msil": "0.64",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Deoria_63253_9527784_JKJGOB_370639_1_10287": {
+        "sil": "[[np.float64(0.55), np.float64(1.0)], [np.float64(7.43), np.float64(7.63)]]",
+        "bsil": "0.0",
+        "msil": "0.45",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_128452_12605916_BHGJWAF_185450_45_6285": {
+        "sil": "[[np.float64(4.64), np.float64(5.06)]]",
+        "bsil": "0.0",
+        "msil": "0.42",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Solapur_122051_12394386_BHGGBR_363573_8891_13447": {
+        "sil": "[[np.float64(1.93), np.float64(2.71)]]",
+        "bsil": "0.0",
+        "msil": "0.78",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_128617_12584919_BHARS_135226_603_7254": {
+        "sil": "[[np.float64(2.59), np.float64(2.99)], [np.float64(3.63), np.float64(4.13)]]",
+        "bsil": "0.0",
+        "msil": "0.5",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Telengana_Karimnagar_115718_11807717_TGKCO_203022_5_5861": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Aurangabad_97489_11051337_MRAWOHS_12766_16161_19152": {
+        "sil": "[[np.float64(1.56), np.float64(2.06)]]",
+        "bsil": "0.0",
+        "msil": "0.5",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Deoria_103076_11161594_JKJHE_150891_103_13983": {
+        "sil": "[[np.float64(3.03), np.float64(3.32)], [np.float64(4.95), np.float64(5.39)], [np.float64(7.29), np.float64(8.13)], [np.float64(9.17), np.float64(10.08)], [np.float64(12.55), np.float64(12.87)], [np.float64(13.66), np.float64(13.88)]]",
+        "bsil": "0.0",
+        "msil": "0.91",
+        "esil": "0.22"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Korba_106013_11315124_BHGGFIM_363862_8651_19123": {
+        "sil": "[[np.float64(2.1), np.float64(2.64)], [np.float64(3.49), np.float64(3.84)], [np.float64(5.67), np.float64(6.04)], [np.float64(7.32), np.float64(7.86)], [np.float64(8.49), np.float64(8.97)]]",
+        "bsil": "0.0",
+        "msil": "0.54",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_WestBengal_PaschimMedinipur_69182_9789090_BHECHBU_356424_616_10588": {
+        "sil": "[[np.float64(2.18), np.float64(2.86)], [np.float64(6.19), np.float64(6.88)]]",
+        "bsil": "0.0",
+        "msil": "0.69",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Dhule_148164_13434659_BHJHAT_311276_0_6845": {
+        "sil": "[[np.float64(0.56), np.float64(0.86)], [np.float64(2.73), np.float64(3.33)], [np.float64(3.99), np.float64(4.32)], [np.float64(4.86), np.float64(5.12)]]",
+        "bsil": "0.0",
+        "msil": "0.6",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Sindhudurga_154702_13818031_MRSDAT_73407_0_7633": {
+        "sil": "[[np.float64(3.33), np.float64(3.89)], [np.float64(5.79), np.float64(6.21)]]",
+        "bsil": "0.0",
+        "msil": "0.56",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Pune_131197_12611994_MRPGT_31724_0_9031": {
+        "sil": "[[np.float64(1.33), np.float64(1.69)], [np.float64(5.48), np.float64(6.1)]]",
+        "bsil": "0.0",
+        "msil": "0.62",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Bijapur_Abhi55670_1455260000_CGBMEX_346497_618_4874": {
+        "sil": "[[np.float64(0.85), np.float64(1.18)], [np.float64(2.43), np.float64(2.72)]]",
+        "bsil": "0.0",
+        "msil": "0.33",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_AP_Guntur_139570_12945425_APGUCO_164898_11419_21013": {
+        "sil": "[[np.float64(4.87), np.float64(5.22)], [np.float64(8.09), np.float64(8.43)]]",
+        "bsil": "0.0",
+        "msil": "0.35",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Nagpur_137590_12926833_MRNJAT_12809_0_9653": {
+        "sil": "[[np.float64(6.78), np.float64(7.15)]]",
+        "bsil": "0.0",
+        "msil": "0.37",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_116208_11842917_BHDM_142165_0_10497": {
+        "sil": "[[np.float64(3.72), np.float64(4.01)], [np.float64(5.92), np.float64(6.34)], [np.float64(7.02), np.float64(7.34)], [np.float64(8.66), np.float64(8.93)]]",
+        "bsil": "0.0",
+        "msil": "0.42",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_PaschimMedinipur_Atan52770_1611040000_WBPMEBU_191085_15063_20546": {
+        "sil": "[[np.float64(0.72), np.float64(1.24)], [np.float64(1.66), np.float64(1.95)], [np.float64(3.93), np.float64(4.63)]]",
+        "bsil": "0.0",
+        "msil": "0.7",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Bilaspur_Tani22680_1123010000_BHJHEV_133104_10265_18640": {
+        "sil": "[[np.float64(4.45), np.float64(4.82)], [np.float64(5.96), np.float64(6.36)]]",
+        "bsil": "0.0",
+        "msil": "0.4",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_129367_12239588_BHHC_155492_6096_20217": {
+        "sil": "[[np.float64(3.75), np.float64(4.19)], [np.float64(7.93), np.float64(8.31)]]",
+        "bsil": "0.0",
+        "msil": "0.44",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_129281_12221121_BHGJEC_186608_8_6061": {
+        "sil": "[[np.float64(0.74), np.float64(1.12)], [np.float64(2.6), np.float64(2.98)]]",
+        "bsil": "0.0",
+        "msil": "0.38",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Karnataka_Bijapur_123491_12524227_TGKTES_53632_10034_13054": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Raigarh_133134_12680706_BHGGFE_363820_0_11393": {
+        "sil": "[[np.float64(2.69), np.float64(3.08)]]",
+        "bsil": "0.0",
+        "msil": "0.39",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_MH_Pune_67886276_0948080000_MRPBR_28747_13664_25344": {
+        "sil": "[[np.float64(3.92), np.float64(4.47)], [np.float64(8.73), np.float64(9.34)], [np.float64(11.4), np.float64(11.68)]]",
+        "bsil": "0.0",
+        "msil": "0.61",
+        "esil": "0.28"
+    },
+    "IISc_VaaniProject_M_KA_Belgaum_62881564_1512280000_KTBLI_320928_11760_15360": {
+        "sil": "[[np.float64(1.75), np.float64(2.29)]]",
+        "bsil": "0.0",
+        "msil": "0.54",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_DakshinKannada_vasa48347_1351100000_KTDKACG_213821_1354_5335": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Chandrapur_137721_12865141_CGKDOTHER_301478_0_13516": {
+        "sil": "[[np.float64(2.52), np.float64(3.05)], [np.float64(3.79), np.float64(4.35)], [np.float64(4.8), np.float64(5.16)], [np.float64(6.16), np.float64(6.65)], [np.float64(7.36), np.float64(7.71)], [np.float64(8.4), np.float64(8.68)], [np.float64(10.51), np.float64(11.33)]]",
+        "bsil": "0.0",
+        "msil": "0.82",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Bilaspur_Gudi83701_1017020000_CGBLAUR_98121_7461_15268": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Dhule_140337_12979654_MRDHT_136387_15221_20368": {
+        "sil": "[[np.float64(1.61), np.float64(2.01)]]",
+        "bsil": "0.0",
+        "msil": "0.4",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Malda_Bikr10980_0824330000_MLWAS_157788_14442_18176": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_AP_Srikakulam_Alth55455_0618240000_APSRSC_96968_304_8043": {
+        "sil": "[[np.float64(1.48), np.float64(1.94)], [np.float64(3.31), np.float64(3.62)], [np.float64(4.95), np.float64(5.45)], [np.float64(6.1), np.float64(6.69)]]",
+        "bsil": "0.0",
+        "msil": "0.59",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Pune_66132_9658740_MRPMT_63972_68_6051": {
+        "sil": "[[np.float64(2.57), np.float64(3.34)], [np.float64(4.8), np.float64(5.23)]]",
+        "bsil": "0.0",
+        "msil": "0.77",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Raigarh_Pink25873_1336530000_APATRI_67501_10115_16663": {
+        "sil": "[[np.float64(2.32), np.float64(2.8)], [np.float64(4.39), np.float64(4.81)]]",
+        "bsil": "0.0",
+        "msil": "0.48",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Jhargram_Rupa13051_1004140000_TGKMR_8252_10688_18474": {
+        "sil": "[[np.float64(3.66), np.float64(4.11)], [np.float64(6.02), np.float64(6.52)]]",
+        "bsil": "0.0",
+        "msil": "0.5",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Gorakhpur_69434_9857420_UPGPRAS_675_6606_11029": {
+        "sil": "[[np.float64(3.33), np.float64(3.74)]]",
+        "bsil": "0.0",
+        "msil": "0.41",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_UP_Ghazipur_Aart42523_0609130000_UPGZOTHER_315948_6046_9076": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_AP_Anantpur_00609498_0915510000_BHVSEV_338449_325_3680": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_AP_Srikakulam_145338_13246747_UPVNST_1155_8443_18618": {
+        "sil": "[[np.float64(3.02), np.float64(3.76)], [np.float64(8.22), np.float64(8.67)]]",
+        "bsil": "0.0",
+        "msil": "0.74",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Malda_Madh86655_0446130000_WBMLMAO_140574_7872_9984": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Varanasi_109271_11475607_TGNLBUPS_203808_9069_19466": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_116913_11873774_TGNLSH_14874_67_9422": {
+        "sil": "[[np.float64(3.17), np.float64(3.5)], [np.float64(5.16), np.float64(5.49)]]",
+        "bsil": "0.0",
+        "msil": "0.33",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_WestBengal_Purulia_129963_12343988_WBPLMT_175983_11340_20050": {
+        "sil": "[[np.float64(5.63), np.float64(5.95)]]",
+        "bsil": "0.0",
+        "msil": "0.32",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Saharsa_Rosh20976_1603080000_BHARBO_351948_2570_4597": {
+        "sil": "[[np.float64(1.39), np.float64(1.78)]]",
+        "bsil": "0.0",
+        "msil": "0.39",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Raigarh_82878_10394419_TGNLSH_14518_0_12859": {
+        "sil": "[[np.float64(0.0), np.float64(0.3)], [np.float64(4.01), np.float64(4.62)], [np.float64(6.65), np.float64(6.92)], [np.float64(9.39), np.float64(9.94)]]",
+        "bsil": "0.3",
+        "msil": "0.61",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Aurangabad_131951_12640799_MRAHO_139506_13217_18872": {
+        "sil": "[[np.float64(4.39), np.float64(4.65)]]",
+        "bsil": "0.0",
+        "msil": "0.26",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_128223_12224569_BHGJFE_185461_44_11081": {
+        "sil": "[[np.float64(4.53), np.float64(4.95)], [np.float64(5.52), np.float64(6.0)]]",
+        "bsil": "0.0",
+        "msil": "0.48",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Raigarh_Viml93776_1316000000_WBPLPA_187218_8021_11648": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Jamui_82347_10398046_BHJMDA_147546_498_9631": {
+        "sil": "[[np.float64(4.48), np.float64(5.07)], [np.float64(6.63), np.float64(7.15)]]",
+        "bsil": "0.0",
+        "msil": "0.59",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Gaya_Neha437451_0539120000_BHGJFIM_192423_17056_19541": {
+        "sil": "[[np.float64(2.19), np.float64(2.49)]]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.3"
+    },
+    "IISc_VaaniProject_M_TS_Nalgonda_91343503_0540470000_BHECHFE_144975_14400_17205": {
+        "sil": "[[np.float64(1.09), np.float64(1.34)], [np.float64(2.45), np.float64(2.81)]]",
+        "bsil": "0.0",
+        "msil": "0.25",
+        "esil": "0.36"
+    },
+    "IISc_VaaniProject_M_MH_Nagpur_Adit06043_1255340000_MRNDM_61987_11124_15423": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Telengana_Nalgonda_117285_11891466_BHGJTR_192380_177_15457": {
+        "sil": "[[np.float64(6.66), np.float64(6.97)], [np.float64(10.49), np.float64(11.17)], [np.float64(14.21), np.float64(14.52)]]",
+        "bsil": "0.0",
+        "msil": "0.68",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Raigarh_TejB94299_0528570000_BHJHEV_132964_10704_12194": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Vaishali_122913_12465203_BHVSGY_338747_8742_16505": {
+        "sil": "[[np.float64(2.29), np.float64(2.63)], [np.float64(5.73), np.float64(6.08)]]",
+        "bsil": "0.0",
+        "msil": "0.35",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_DakshinKannada_Keer64133_1423500000_KTDKASH_34423_1591_9624": {
+        "sil": "[[np.float64(1.22), np.float64(1.96)], [np.float64(3.41), np.float64(3.66)], [np.float64(5.14), np.float64(5.92)]]",
+        "bsil": "0.0",
+        "msil": "0.78",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Jharkhand_Jamtara_89805_10646914_BHVSAUR_228366_11902_17189": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Vaishali_Niha85968_1139470000_CGBMEX_346520_7529_14943": {
+        "sil": "[[np.float64(1.16), np.float64(1.57)], [np.float64(2.79), np.float64(3.67)]]",
+        "bsil": "0.0",
+        "msil": "0.88",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Jharkhand_Jamtara_103040_11152395_APATLI_272768_13555_16740": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Raigarh_Bhag54816_1101190000_CGBMEX_346484_940_18297": {
+        "sil": "[[np.float64(0.59), np.float64(0.75)], [np.float64(1.36), np.float64(2.06)], [np.float64(3.5), np.float64(3.89)], [np.float64(4.93), np.float64(5.29)], [np.float64(7.57), np.float64(7.92)], [np.float64(11.62), np.float64(12.01)], [np.float64(13.29), np.float64(13.73)]]",
+        "bsil": "0.0",
+        "msil": "0.7",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Jashpur_Pris77590_0247120000_TGKBR_65321_1877_6016": {
+        "sil": "[[np.float64(1.36), np.float64(1.9)], [np.float64(2.95), np.float64(3.21)]]",
+        "bsil": "0.0",
+        "msil": "0.54",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Telengana_Nalgonda_107896_11403894_TGNLOTHER_11809_6809_13356": {
+        "sil": "[[np.float64(2.43), np.float64(2.89)], [np.float64(4.99), np.float64(5.51)]]",
+        "bsil": "0.0",
+        "msil": "0.52",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Ghazipur_78555_10247663_BHGGBA_363511_0_6928": {
+        "sil": "[[np.float64(5.21), np.float64(5.57)]]",
+        "bsil": "0.0",
+        "msil": "0.36",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Jamui_Rooh11661_1910050000_BHJMAUR_118682_3696_5701": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Kolkata_Priy37539_1034260000_WBKKML_263077_353_8253": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_AP_Anantpur_121690_12337407_APATHO_256960_7600_20010": {
+        "sil": "[[np.float64(2.21), np.float64(2.65)], [np.float64(5.48), np.float64(5.92)], [np.float64(8.91), np.float64(9.49)]]",
+        "bsil": "0.0",
+        "msil": "0.58",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_AP_Krishna_Neha59077_0952050000_APKRLIH_303848_17814_22680": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_AP_Anantpur_101012_11095012_BHGJJAT_185919_8740_16805": {
+        "sil": "[[np.float64(2.17), np.float64(2.55)], [np.float64(3.58), np.float64(4.03)]]",
+        "bsil": "0.0",
+        "msil": "0.45",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Vaishali_103454_11191604_BHVSOTHER_338268_7084_18834": {
+        "sil": "[[np.float64(0.0), np.float64(0.33)], [np.float64(7.45), np.float64(8.01)], [np.float64(9.8), np.float64(10.27)]]",
+        "bsil": "0.33",
+        "msil": "0.56",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Saharsa_Pink57619_0353430000_BHSHMT_213714_12128_14506": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Karnataka_Bijapur_106864_11388635_KTBJSU_16378_8_12017": {
+        "sil": "[[np.float64(1.97), np.float64(2.5)], [np.float64(4.15), np.float64(4.48)]]",
+        "bsil": "0.0",
+        "msil": "0.53",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Bijapur_66885213_0850280000_KTBJAUR_283312_16877_22907": {
+        "sil": "[[np.float64(1.28), np.float64(1.99)], [np.float64(3.3), np.float64(3.74)]]",
+        "bsil": "0.0",
+        "msil": "0.71",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_MH_Pune_Madh98633_1717270000_MRPLIH_52548_9433_16507": {
+        "sil": "[[np.float64(0.67), np.float64(1.31)], [np.float64(2.79), np.float64(3.26)], [np.float64(4.94), np.float64(5.08)], [np.float64(5.65), np.float64(6.11)]]",
+        "bsil": "0.0",
+        "msil": "0.64",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Begusarai_Shwe68951_1946230000_BHBSLI_135657_9293_16485": {
+        "sil": "[[np.float64(3.35), np.float64(3.7)]]",
+        "bsil": "0.0",
+        "msil": "0.35",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Karnataka_DakshinKannada_89510_10619271_UPVNTNT_168534_10533_20550": {
+        "sil": "[[np.float64(3.74), np.float64(4.15)], [np.float64(7.94), np.float64(8.37)]]",
+        "bsil": "0.0",
+        "msil": "0.43",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_MH_Aurangabad_Nish82695_0732400000_MRADM_236166_434_6079": {
+        "sil": "[[np.float64(2.48), np.float64(2.95)]]",
+        "bsil": "0.0",
+        "msil": "0.47",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Bilaspur_Shob88599_0453030000_CGBLFT_152074_4225_8680": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_MH_Pune_Rani63829_1722070000_TGKST_26878_3861_5610": {
+        "sil": "[[np.float64(0.97), np.float64(1.48)]]",
+        "bsil": "0.0",
+        "msil": "0.51",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Lakhisarai_Mani59915_0900160000_BHARBO_351966_4279_8334": {
+        "sil": "[[np.float64(2.37), np.float64(2.66)]]",
+        "bsil": "0.0",
+        "msil": "0.29",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Gaya_10106453_0646190000_BHAC_134185_1376_12160": {
+        "sil": "[[np.float64(3.65), np.float64(4.22)], [np.float64(4.88), np.float64(5.57)], [np.float64(7.94), np.float64(8.57)]]",
+        "bsil": "0.0",
+        "msil": "0.69",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Madhepura_Ansh61760_1122520000_BHVSCS_338219_7292_11611": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Ghazipur_80045_10307298_UPGZBU_315765_4842_8762": {
+        "sil": "[[np.float64(3.62), np.float64(3.92)]]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.3"
+    },
+    "IISc_VaaniProject_M_MH_Dhule_Ridd86645_0736090000_MRDEV_88646_9661_15552": {
+        "sil": "[[np.float64(1.75), np.float64(2.15)], [np.float64(2.6), np.float64(3.05)]]",
+        "bsil": "0.0",
+        "msil": "0.45",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Shimoga_62141490_1429410000_KTSMGHT_145903_19328_22784": {
+        "sil": "[[np.float64(0.48), np.float64(1.07)]]",
+        "bsil": "0.0",
+        "msil": "0.59",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_EastChamparan_74911_10079197_BHECHWAS_285999_802_5703": {
+        "sil": "[[np.float64(1.97), np.float64(2.85)]]",
+        "bsil": "0.0",
+        "msil": "0.88",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Karnataka_Bijapur_120177_12011908_IMG_20220912_121927_2_11530": {
+        "sil": "[[np.float64(8.44), np.float64(8.72)]]",
+        "bsil": "0.0",
+        "msil": "0.28",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_129438_12335554_BHAT_113584_0_3761": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Saharsa_Sati49084_1619470000_KTCMBK_248896_14658_17556": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_118441_12320027_BHGJGT_169674_1_9630": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Karnataka_Dharwad_146627_13324252_KTDHFM_299150_0_5383": {
+        "sil": "[[np.float64(1.3), np.float64(1.55)], [np.float64(2.17), np.float64(2.38)], [np.float64(3.81), np.float64(4.33)]]",
+        "bsil": "0.0",
+        "msil": "0.52",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_AP_Vishakapattanam_Pras13193_0328510000_APVUN_1217_18436_21118": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_JH_Jamtara_26393652_1059100000_JKJST_126674_847_3343": {
+        "sil": "[[np.float64(0.28), np.float64(1.06)]]",
+        "bsil": "0.0",
+        "msil": "0.78",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Telengana_Nalgonda_106528_11332543_BHGGFE_363811_818_9712": {
+        "sil": "[[np.float64(2.06), np.float64(2.68)], [np.float64(4.93), np.float64(5.24)], [np.float64(8.02), np.float64(8.32)]]",
+        "bsil": "0.0",
+        "msil": "0.62",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Ghazipur_77378_10199401_UPGZHO_316260_10120_16921": {
+        "sil": "[[np.float64(4.87), np.float64(5.52)]]",
+        "bsil": "0.0",
+        "msil": "0.65",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Chandrapur_96987_10941002_MRCWAS_248317_9476_17467": {
+        "sil": "[[np.float64(4.32), np.float64(4.79)]]",
+        "bsil": "0.0",
+        "msil": "0.47",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_AP_Srikakulam_Pall92313_0935440000_APSRCP_316947_15999_20458": {
+        "sil": "[[np.float64(2.43), np.float64(3.23)]]",
+        "bsil": "0.0",
+        "msil": "0.8",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Bijapur_06601810_0338470000_KTBJPG_138947_14632_21248": {
+        "sil": "[[np.float64(2.54), np.float64(3.17)], [np.float64(4.29), np.float64(4.75)]]",
+        "bsil": "0.0",
+        "msil": "0.63",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Gorakhpur_63214_9526265_KTCMCS_142668_0_9931": {
+        "sil": "[[np.float64(5.83), np.float64(6.51)]]",
+        "bsil": "0.0",
+        "msil": "0.68",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Deoria_64874_9605981_UPDEOTHER_296678_0_7071": {
+        "sil": "[[np.float64(0.63), np.float64(0.91)], [np.float64(2.61), np.float64(3.09)], [np.float64(4.46), np.float64(5.02)]]",
+        "bsil": "0.0",
+        "msil": "0.56",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Saran_Sagu52211_0802270000_UPVNLA_185132_14613_16874": {
+        "sil": "[[np.float64(0.91), np.float64(1.23)]]",
+        "bsil": "0.0",
+        "msil": "0.32",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_PaschimMedinipur_Biha14715_1522400000_BHGGBR_363573_473_10190": {
+        "sil": "[[np.float64(2.85), np.float64(3.32)], [np.float64(6.17), np.float64(6.59)]]",
+        "bsil": "0.0",
+        "msil": "0.47",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Jashpur_Riya23060_1459590000_BHBSGA_130692_13876_18136": {
+        "sil": "[[np.float64(0.93), np.float64(1.37)]]",
+        "bsil": "0.0",
+        "msil": "0.44",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Solapur_140317_13081105_TGNLRAS_14501_8981_12547": {
+        "sil": "[[np.float64(0.48), np.float64(1.08)], [np.float64(2.69), np.float64(3.04)]]",
+        "bsil": "0.0",
+        "msil": "0.6",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_WestBengal_Purulia_129298_12213613_WBPLCA_1038_0_5600": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Balrampur_119514_11971946_CGBMMR_46022_3781_6880": {
+        "sil": "[[np.float64(0.95), np.float64(1.29)]]",
+        "bsil": "0.0",
+        "msil": "0.34",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Jharkhand_Sahebganj_87930_10538015_JKSBGA_328374_0_12099": {
+        "sil": "[[np.float64(2.99), np.float64(3.33)], [np.float64(6.12), np.float64(6.48)], [np.float64(7.54), np.float64(7.91)], [np.float64(8.28), np.float64(8.63)]]",
+        "bsil": "0.0",
+        "msil": "0.37",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Rajnandgaon_114971_11935037_JKJCO_126820_978_7943": {
+        "sil": "[[np.float64(6.46), np.float64(6.78)]]",
+        "bsil": "0.0",
+        "msil": "0.32",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_AP_Chittoor_Teja24647_0808020000_APCTCH_80349_18564_24857": {
+        "sil": "[[np.float64(1.46), np.float64(1.88)]]",
+        "bsil": "0.0",
+        "msil": "0.42",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Kolkata_36833230_1142170000_CGKDCOS_126165_17141_21248": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_North24Parganas_Bita77027_1552270000_OTHER_109372_1123_4238": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Deoria_63269_9528183_TGKSEP_80014_838_12479": {
+        "sil": "[[np.float64(3.79), np.float64(4.59)], [np.float64(7.29), np.float64(8.13)]]",
+        "bsil": "0.0",
+        "msil": "0.84",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Dhule_103028_11351001_KTBBK_320221_3734_9033": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Madhepura_124213_12061600_BHGJLK_208940_11551_18413": {
+        "sil": "[[np.float64(4.98), np.float64(5.57)]]",
+        "bsil": "0.0",
+        "msil": "0.59",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Purulia_Pope62632_1250140000_WBPLFN_2032_6640_24555": {
+        "sil": "[[np.float64(3.23), np.float64(3.58)], [np.float64(3.97), np.float64(4.6)], [np.float64(8.05), np.float64(8.71)], [np.float64(10.53), np.float64(11.08)], [np.float64(14.79), np.float64(15.43)]]",
+        "bsil": "0.0",
+        "msil": "0.66",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_UP_Deoria_Pami98101_0426420000_UPDECS_98754_18274_24639": {
+        "sil": "[[np.float64(2.6), np.float64(3.04)], [np.float64(3.71), np.float64(4.08)]]",
+        "bsil": "0.0",
+        "msil": "0.44",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_MH_Nagpur_Adit06043_1223470000_TGKPP_101758_10467_14625": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Korba_96292_10903382_CGBMEX_346496_29_9766": {
+        "sil": "[[np.float64(7.56), np.float64(8.09)]]",
+        "bsil": "0.0",
+        "msil": "0.53",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_UP_Ghazipur_Laxm32002_0737430000_UPGZTNT_316657_12289_17102": {
+        "sil": "[[np.float64(0.3), np.float64(0.74)], [np.float64(1.39), np.float64(1.79)]]",
+        "bsil": "0.0",
+        "msil": "0.44",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Saran_118186_12006214_DDIGA_238893_7396_11633": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Kolkata_Arch46548_0615190000_CGKDCO_226413_13152_24576": {
+        "sil": "[[np.float64(2.58), np.float64(3.06)], [np.float64(4.14), np.float64(4.4)], [np.float64(4.81), np.float64(5.24)], [np.float64(8.73), np.float64(9.42)]]",
+        "bsil": "0.0",
+        "msil": "0.69",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_AP_Krishna_Span70291_1340570000_TGKCO_203164_3463_6146": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Jahanabad_70279_9842295_BHJHFT_319773_7667_13221": {
+        "sil": "[[np.float64(2.53), np.float64(2.91)], [np.float64(4.15), np.float64(4.51)], [np.float64(5.22), np.float64(5.56)]]",
+        "bsil": "0.0",
+        "msil": "0.38",
+        "esil": "0.34"
+    },
+    "IISc_VaaniProject_M_WB_Kolkata_Sanc51997_0247080000_WBKKREI_253991_9941_15306": {
+        "sil": "[[np.float64(2.34), np.float64(2.84)]]",
+        "bsil": "0.0",
+        "msil": "0.5",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Bijapur_Manj01438_1248580000_KTBJOTHER_283399_1288_7186": {
+        "sil": "[[np.float64(3.31), np.float64(3.85)]]",
+        "bsil": "0.0",
+        "msil": "0.54",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Gaya_120680_12220164_BHCS_123184_13657_20007": {
+        "sil": "[[np.float64(2.37), np.float64(2.89)], [np.float64(6.07), np.float64(6.35)]]",
+        "bsil": "0.0",
+        "msil": "0.52",
+        "esil": "0.28"
+    },
+    "IISc_VaaniProject_S_Goa_NorthSouthGoa_104927_11261355_GOAT_212588_0_5536": {
+        "sil": "[[np.float64(0.89), np.float64(1.54)]]",
+        "bsil": "0.0",
+        "msil": "0.65",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Jashpur_31109716_0722430000_CGJPAT_26222_3274_5717": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Jhargram_Rina86783_1002290000_JRCO_157742_5248_10368": {
+        "sil": "[[np.float64(1.87), np.float64(2.06)], [np.float64(2.73), np.float64(3.55)]]",
+        "bsil": "0.0",
+        "msil": "0.82",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Purulia_Gane76546_1356200000_WBPLCH_202278_842_14794": {
+        "sil": "[[np.float64(3.07), np.float64(3.65)], [np.float64(7.2), np.float64(7.77)], [np.float64(7.98), np.float64(8.31)]]",
+        "bsil": "0.0",
+        "msil": "0.58",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Solapur_152483_13700971_CGKDBO_280051_12106_17130": {
+        "sil": "[[np.float64(1.15), np.float64(1.62)]]",
+        "bsil": "0.0",
+        "msil": "0.47",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Kishanganj_96226_10903129_KTVEM_158236_0_8247": {
+        "sil": "[[np.float64(2.49), np.float64(2.83)], [np.float64(5.09), np.float64(5.45)]]",
+        "bsil": "0.0",
+        "msil": "0.36",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Gorakhpur_65072_9612090_WBMLPG_140387_10771_20467": {
+        "sil": "[[np.float64(2.73), np.float64(3.45)], [np.float64(5.29), np.float64(5.66)], [np.float64(5.72), np.float64(6.04)]]",
+        "bsil": "0.0",
+        "msil": "0.72",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Kishanganj_135145_12785857_BHVSAUR_228366_0_7825": {
+        "sil": "[[np.float64(2.24), np.float64(2.77)], [np.float64(4.68), np.float64(5.05)]]",
+        "bsil": "0.0",
+        "msil": "0.53",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_UP_Budaun_Loke99385_0337470000_UPBUPC_311751_10582_14198": {
+        "sil": "[[np.float64(0.24), np.float64(0.77)]]",
+        "bsil": "0.0",
+        "msil": "0.53",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_EastChamparan_Muke72603_1431180000_KTCMSTF_300005_0_8578": {
+        "sil": "[[np.float64(0.0), np.float64(0.53)]]",
+        "bsil": "0.53",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Pune_69773_9853059_CGBMFA_346528_548_13880": {
+        "sil": "[[np.float64(1.08), np.float64(1.63)], [np.float64(3.75), np.float64(4.29)], [np.float64(6.53), np.float64(7.02)], [np.float64(9.31), np.float64(9.76)]]",
+        "bsil": "0.0",
+        "msil": "0.55",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Shimoga_Kart69125_1523250000_KTSMGTD_12538_2911_7942": {
+        "sil": "[[np.float64(1.32), np.float64(1.6)]]",
+        "bsil": "0.0",
+        "msil": "0.28",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Gorakhpur_64902_9643227_APCTBA_173787_6835_13121": {
+        "sil": "[[np.float64(2.5), np.float64(2.95)], [np.float64(3.31), np.float64(3.65)]]",
+        "bsil": "0.0",
+        "msil": "0.45",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Saharsa_95816983_1126360000_BHVSCH_338296_11877_21815": {
+        "sil": "[[np.float64(0.37), np.float64(1.67)], [np.float64(2.18), np.float64(2.67)], [np.float64(5.08), np.float64(6.06)], [np.float64(7.7), np.float64(8.37)]]",
+        "bsil": "0.0",
+        "msil": "1.3",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Karnataka_Dharwad_114398_11779285_KTDHRAS_5247_62_12868": {
+        "sil": "[[np.float64(5.53), np.float64(5.81)], [np.float64(6.3), np.float64(6.79)], [np.float64(11.33), np.float64(11.8)]]",
+        "bsil": "0.0",
+        "msil": "0.49",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_MH_Pune_Akas98436_0818110000_MRPMA_205715_15694_18160": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_UP_Deoria_Ritu03865_1901190000_TGKBU_77514_3134_7095": {
+        "sil": "[[np.float64(1.47), np.float64(1.89)]]",
+        "bsil": "0.0",
+        "msil": "0.42",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Bhagalpur_75411_10152327_BHBPBU_13677_12559_19278": {
+        "sil": "[[np.float64(2.74), np.float64(3.14)], [np.float64(4.09), np.float64(4.4)]]",
+        "bsil": "0.0",
+        "msil": "0.4",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Solapur_131162_12562662_BHJHME_115733_6365_17744": {
+        "sil": "[[np.float64(3.37), np.float64(3.75)], [np.float64(6.8), np.float64(7.19)]]",
+        "bsil": "0.0",
+        "msil": "0.39",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Saharsa_Prem54830_1259120000_CGBTDAF_206409_1753_15505": {
+        "sil": "[[np.float64(2.21), np.float64(2.57)], [np.float64(3.5), np.float64(4.19)], [np.float64(8.32), np.float64(9.01)], [np.float64(11.86), np.float64(12.54)]]",
+        "bsil": "0.0",
+        "msil": "0.69",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_AP_Srikakulam_Ling56778_1648400000_APSRLI_200098_1205_9526": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_WestBengal_DakshinDinajpur_129329_12204187_CGKDNAP_79347_0_10613": {
+        "sil": "[[np.float64(3.61), np.float64(3.9)], [np.float64(4.56), np.float64(5.36)]]",
+        "bsil": "0.0",
+        "msil": "0.8",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Bilaspur_90823_10695043_CGBLBK_159327_0_10118": {
+        "sil": "[[np.float64(1.61), np.float64(2.21)], [np.float64(5.57), np.float64(6.0)]]",
+        "bsil": "0.0",
+        "msil": "0.6",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_MH_Pune_64885556_1338330000_KTDHHE_158007_361_9226": {
+        "sil": "[[np.float64(0.46), np.float64(0.77)], [np.float64(0.86), np.float64(1.26)], [np.float64(3.2), np.float64(3.68)], [np.float64(5.93), np.float64(6.41)], [np.float64(8.04), np.float64(8.56)]]",
+        "bsil": "0.0",
+        "msil": "0.52",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Vaishali_Arun51686_0718570000_BHVSGS_212790_9641_14327": {
+        "sil": "[[np.float64(2.44), np.float64(3.4)]]",
+        "bsil": "0.0",
+        "msil": "0.96",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Rajnandgaon_Rupe38797_1238030000_CGRNEV_149598_16561_20657": {
+        "sil": "[[np.float64(0.15), np.float64(0.41)]]",
+        "bsil": "0.0",
+        "msil": "0.26",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Korba_103705_11360404_JKJHE_313399_8_13422": {
+        "sil": "[[np.float64(1.82), np.float64(2.19)], [np.float64(3.14), np.float64(3.76)], [np.float64(10.04), np.float64(10.46)]]",
+        "bsil": "0.0",
+        "msil": "0.62",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Jalaun_139092_12916767_UPJLGY_312817_0_11443": {
+        "sil": "[[np.float64(4.71), np.float64(5.03)], [np.float64(9.04), np.float64(9.35)]]",
+        "bsil": "0.0",
+        "msil": "0.32",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Jahanabad_140951_13048221_BHOTHER_305296_5385_8393": {
+        "sil": "[[np.float64(1.19), np.float64(1.68)]]",
+        "bsil": "0.0",
+        "msil": "0.49",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Saran_89807_10641826_CGKDPG_62317_9419_19999": {
+        "sil": "[[np.float64(3.27), np.float64(3.79)], [np.float64(4.85), np.float64(5.2)], [np.float64(6.88), np.float64(7.46)]]",
+        "bsil": "0.0",
+        "msil": "0.58",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Jahanabad_69841_9815934_CGBMEX_346505_5_7295": {
+        "sil": "[[np.float64(1.29), np.float64(1.81)], [np.float64(2.33), np.float64(2.63)], [np.float64(5.23), np.float64(5.7)]]",
+        "bsil": "0.0",
+        "msil": "0.52",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Deoria_103332_11163619_KTCMDAF_300674_393_7115": {
+        "sil": "[[np.float64(2.08), np.float64(2.45)], [np.float64(5.81), np.float64(6.11)]]",
+        "bsil": "0.0",
+        "msil": "0.37",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Telengana_Karimnagar_121458_12357247_TGKTHP_160390_0_4518": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Bhagalpur_126791_12328070_BHBPMQ_2366_8_6357": {
+        "sil": "[[np.float64(2.91), np.float64(3.58)]]",
+        "bsil": "0.0",
+        "msil": "0.67",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_MH_Aurangabad_Shub07893_1324390000_MRAJAT_83141_690_7129": {
+        "sil": "[[np.float64(5.39), np.float64(5.74)]]",
+        "bsil": "0.0",
+        "msil": "0.35",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_AP_Chittoor_Shal52248_1143070000_APVEV_115995_10352_18613": {
+        "sil": "[[np.float64(5.83), np.float64(6.16)]]",
+        "bsil": "0.0",
+        "msil": "0.33",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_UP_Ghazipur_Sudh08797_0554140000_UPGZGT_36504_13331_17489": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Bilaspur_118293_11940798_CGBLTO_7582_8_6738": {
+        "sil": "[[np.float64(2.99), np.float64(3.35)], [np.float64(5.55), np.float64(5.84)]]",
+        "bsil": "0.0",
+        "msil": "0.36",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_MH_Dhule_Kira79058_1048360000_MRDSP_276831_8405_11840": {
+        "sil": "[[np.float64(1.22), np.float64(2.04)], [np.float64(2.6), np.float64(3.04)]]",
+        "bsil": "0.0",
+        "msil": "0.82",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Dharwad_61453266_1132040000_CGKDFIM_53912_13339_23881": {
+        "sil": "[[np.float64(0.76), np.float64(1.03)], [np.float64(1.78), np.float64(2.06)], [np.float64(2.82), np.float64(3.16)], [np.float64(3.87), np.float64(4.52)], [np.float64(6.64), np.float64(7.11)], [np.float64(7.71), np.float64(8.06)]]",
+        "bsil": "0.0",
+        "msil": "0.65",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Telengana_Karimnagar_104816_11258785_TGKCO_203022_13727_19038": {
+        "sil": "[[np.float64(2.22), np.float64(2.74)]]",
+        "bsil": "0.0",
+        "msil": "0.52",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Mysore_Asha78112_1446550000_IMG20220911143312_561_8003": {
+        "sil": "[[np.float64(4.42), np.float64(4.78)], [np.float64(5.01), np.float64(5.41)]]",
+        "bsil": "0.0",
+        "msil": "0.4",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Karnataka_Mysore_105482_11320358_APATGT_50690_16_10670": {
+        "sil": "[[np.float64(7.19), np.float64(7.55)]]",
+        "bsil": "0.0",
+        "msil": "0.36",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Ghazipur_80383_10319316_CGBMEX_346512_4323_17338": {
+        "sil": "[[np.float64(2.43), np.float64(2.85)], [np.float64(6.54), np.float64(7.09)], [np.float64(8.66), np.float64(9.04)], [np.float64(10.02), np.float64(10.43)]]",
+        "bsil": "0.0",
+        "msil": "0.55",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Belgaum_Rutu86248_1538260000_KTBEV_19915_17191_20190": {
+        "sil": "[[np.float64(0.8), np.float64(1.07)], [np.float64(2.38), np.float64(2.62)]]",
+        "bsil": "0.0",
+        "msil": "0.27",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Vaishali_120908_12238916_BHARBO_351963_10299_19928": {
+        "sil": "[[np.float64(1.63), np.float64(1.98)], [np.float64(5.64), np.float64(5.87)], [np.float64(7.52), np.float64(7.82)]]",
+        "bsil": "0.0",
+        "msil": "0.35",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Jahanabad_140951_13041966_BHOTHER_305315_5797_11282": {
+        "sil": "[[np.float64(2.33), np.float64(2.77)], [np.float64(4.04), np.float64(4.32)]]",
+        "bsil": "0.0",
+        "msil": "0.44",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_UP_Deoria_Meen12520_1027160000_HEC_143648_7126_9757": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Deoria_59377_9397181_UPDESP_146203_495_5167": {
+        "sil": "[[np.float64(3.29), np.float64(3.83)]]",
+        "bsil": "0.0",
+        "msil": "0.54",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Kishanganj_65546_9628494_BHBSINCG_127471_13813_20402": {
+        "sil": "[[np.float64(1.53), np.float64(1.91)], [np.float64(2.72), np.float64(2.97)], [np.float64(4.35), np.float64(4.87)]]",
+        "bsil": "0.0",
+        "msil": "0.52",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Jalaun_138433_13079949_BHJHAT_161831_0_10558": {
+        "sil": "[[np.float64(1.1), np.float64(1.57)], [np.float64(2.83), np.float64(3.21)], [np.float64(6.3), np.float64(6.98)], [np.float64(8.49), np.float64(8.83)], [np.float64(8.89), np.float64(9.24)]]",
+        "bsil": "0.0",
+        "msil": "0.68",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Rajnandgaon_Kund56084_0850100000_CGRNSU_241107_15335_18579": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_WB_Jhargram_Rita43264_1339100000_WBJRZO_166395_661_11466": {
+        "sil": "[[np.float64(7.32), np.float64(7.8)], [np.float64(8.6), np.float64(9.14)]]",
+        "bsil": "0.0",
+        "msil": "0.54",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Raigarh_151635_13632971_UPVNVEM_123211_0_10937": {
+        "sil": "[[np.float64(8.4), np.float64(8.76)]]",
+        "bsil": "0.0",
+        "msil": "0.36",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Saharsa_Saks48239_1455270000_BHSHWAF_114478_1509_4726": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Dhule_122773_12454466_MRDMAO_136405_7429_13668": {
+        "sil": "[[np.float64(0.66), np.float64(0.89)]]",
+        "bsil": "0.0",
+        "msil": "0.23",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_MH_Dhule_Pooj48490_1214010000_MRDRI_45544_12640_13962": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_WestBengal_PaschimMedinipur_64212_9568125_WBOF_202871_4191_11080": {
+        "sil": "[[np.float64(1.42), np.float64(1.96)], [np.float64(3.0), np.float64(3.56)]]",
+        "bsil": "0.0",
+        "msil": "0.56",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_BR_Gaya_Binu58959_0513320000_BHGGEV_363756_15040_20053": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_WestBengal_DakshinDinajpur_73734_10075123_WBDDIRI_325718_0_8701": {
+        "sil": "[[np.float64(0.37), np.float64(0.71)], [np.float64(4.15), np.float64(4.44)]]",
+        "bsil": "0.0",
+        "msil": "0.34",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Karnataka_Dharwad_134450_12745686_KTDHMAO_136226_0_13883": {
+        "sil": "[[np.float64(4.75), np.float64(5.39)], [np.float64(11.75), np.float64(12.07)], [np.float64(12.09), np.float64(12.58)]]",
+        "bsil": "0.0",
+        "msil": "0.64",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Chhattisgarh_Balrampur_69330_9794203_APVEL_74688_10662_13025": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Jashpur_Raju31587_1006430000_BHARBO_351948_759_8298": {
+        "sil": "[[np.float64(1.38), np.float64(2.18)], [np.float64(5.78), np.float64(6.24)]]",
+        "bsil": "0.0",
+        "msil": "0.8",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Bijapur_03816398_1624390000_KTBJSU_316805_13909_18506": {
+        "sil": "[[np.float64(0.46), np.float64(0.97)], [np.float64(1.9), np.float64(2.64)], [np.float64(2.66), np.float64(3.01)]]",
+        "bsil": "0.0",
+        "msil": "0.74",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Sindhudurga_152183_13680628_APVEX_255011_0_12218": {
+        "sil": "[[np.float64(4.81), np.float64(5.33)], [np.float64(7.42), np.float64(7.81)], [np.float64(8.99), np.float64(9.47)], [np.float64(10.39), np.float64(10.8)]]",
+        "bsil": "0.0",
+        "msil": "0.52",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Dharwad_Pooj6684_1231050000_KTDHBU_542_11413_18176": {
+        "sil": "[[np.float64(1.68), np.float64(2.0)], [np.float64(6.37), np.float64(6.67)]]",
+        "bsil": "0.0",
+        "msil": "0.32",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Maharashtra_Pune_145015_13208860_MRPWAM_16142_0_13067": {
+        "sil": "[[np.float64(2.73), np.float64(3.28)], [np.float64(8.19), np.float64(8.61)]]",
+        "bsil": "0.0",
+        "msil": "0.55",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_CG_Rajnandgaon_Sure84197_0413050000_BHGGFM_363781_15884_18091": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_AP_Krishna_Nive33357_1607560000_TGKPP_101758_7603_16893": {
+        "sil": "[[np.float64(2.82), np.float64(3.18)], [np.float64(3.77), np.float64(4.34)]]",
+        "bsil": "0.0",
+        "msil": "0.57",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_UP_Deoria_Rool05762_0954110000_UPDETHP_124608_6944_21802": {
+        "sil": "[[np.float64(1.12), np.float64(1.83)], [np.float64(3.35), np.float64(3.93)], [np.float64(4.35), np.float64(5.38)], [np.float64(6.3), np.float64(6.54)], [np.float64(9.36), np.float64(10.07)], [np.float64(10.86), np.float64(11.56)], [np.float64(13.22), np.float64(13.81)]]",
+        "bsil": "0.0",
+        "msil": "1.03",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Bihar_Saran_115504_11979490_TGKTR_211532_14165_19480": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_MH_Nagpur_Sani42325_1254480000_MRNMQ_61966_8954_11555": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_KA_Belgaum_Jaya75431_1508040000_KTBHC_320829_1117_8544": {
+        "sil": "[[np.float64(2.67), np.float64(3.44)], [np.float64(4.62), np.float64(5.01)]]",
+        "bsil": "0.0",
+        "msil": "0.77",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_S_Uttarpradesh_Deoria_59366_9396909_UPDESH_160921_0_5162": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    },
+    "IISc_VaaniProject_M_AP_Chittoor_Aish97358_0808540000_BHGJSWB_178760_8883_14394": {
+        "sil": "[]",
+        "bsil": "0.0",
+        "msil": "0.0",
+        "esil": "0.0"
+    }
+}

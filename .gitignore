@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .DS_Store
 .cache/
+comparison/
+models/
+.venv/
+.vadenv/
